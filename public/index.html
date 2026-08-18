@@ -33,8 +33,16 @@ body{
 
 /* header */
 header{padding:8px 0 20px}
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
 .title{font-size:24px;font-weight:800;letter-spacing:-.02em;margin:0}
 .sub{color:var(--muted);font-size:14px;margin:2px 0 0}
+.btn-link{
+  flex:none;text-decoration:none;font-size:14px;font-weight:600;
+  color:var(--ink);background:var(--card);border:1px solid var(--line);
+  border-radius:99px;padding:7px 16px;margin-top:3px;
+}
+.btn-link:active{background:var(--bg)}
+.btn-link:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 
 /* hero */
 .hero{
@@ -102,8 +110,13 @@ footer{color:var(--muted);font-size:13px;text-align:center;margin-top:26px}
 <div class="wrap">
 
 <header>
-  <h1 class="title">The Slate</h1>
-  <p class="sub" id="sub">Loading…</p>
+  <div class="top">
+    <div>
+      <h1 class="title">The Slate</h1>
+      <p class="sub" id="sub">Loading…</p>
+    </div>
+    <a class="btn-link" href="rules.html">Rules</a>
+  </div>
 </header>
 
 <main id="app"></main>
@@ -203,27 +216,10 @@ function render(d){
          ${L.length > 8 ? '<button class="ghost" id="more">Show all ' + L.length + '</button>' : ''}`
       : '<p class="empty">Fills itself as the season runs.</p>'));
 
-  out.push('<button id="copy">Copy update for WhatsApp</button>');
-
   document.getElementById('app').innerHTML = out.join('');
 
   const more = document.getElementById('more');
   if (more) more.onclick = () => { document.getElementById('led').innerHTML = L.map(ledRow).join(''); more.remove(); };
-
-  document.getElementById('copy').onclick = async (e) => {
-    const b = e.target, top = spend[0];
-    const msg = [
-      `*${d.leagueName || 'The league'}* — after GW${d.currentGameweek ?? 0}`, '',
-      ...d.standings.slice(0,3).map((m,i) => `${i+1}. ${m.name} — ${pts(m.totalPoints)}`), '',
-      `Transfer pot: ${fmt(d.transferPot.balance)}`,
-      top && top.transfers ? `Biggest spender: ${top.name} — ${top.transfers} transfers (${fmt(top.transferFees)})` : null,
-      live ? `${live.label} lead: ${live.table[0].name}` : null, '',
-      location.href
-    ].filter(Boolean).join('\n');
-    try { await navigator.clipboard.writeText(msg); b.textContent = 'Copied'; }
-    catch { prompt('Copy this:', msg); }
-    setTimeout(() => b.textContent = 'Copy update for WhatsApp', 2000);
-  };
 }
 
 function ledRow(l){

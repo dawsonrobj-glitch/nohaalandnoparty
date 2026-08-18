@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0F1115">
+<title>Rules · The Slate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F6F6F4;--card:#FFFFFF;--ink:#14161A;--muted:#6E7480;
+  --line:#E8E8E4;--red:#C0342B;--green:#12764A;--dark:#0F1115;--radius:14px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:620px;margin:0 auto;padding:20px 16px 64px}
+.num{font-variant-numeric:tabular-nums}
+
+header{padding:8px 0 20px}
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+.title{font-size:24px;font-weight:800;letter-spacing:-.02em;margin:0}
+.sub{color:var(--muted);font-size:14px;margin:2px 0 0}
+.btn-link{
+  flex:none;text-decoration:none;font-size:14px;font-weight:600;
+  color:var(--ink);background:var(--card);border:1px solid var(--line);
+  border-radius:99px;padding:7px 16px;margin-top:3px;
+}
+.btn-link:active{background:var(--bg)}
+.btn-link:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+
+.hero{background:var(--dark);color:#fff;border-radius:var(--radius);padding:22px 20px;margin-bottom:14px}
+.hero-label{font-size:13px;font-weight:500;color:#9BA1AD;margin:0}
+.hero-figure{font-size:44px;font-weight:800;letter-spacing:-.035em;line-height:1.1;margin:2px 0 0}
+.hero p.note{margin:14px 0 0;padding-top:14px;border-top:1px solid rgba(255,255,255,.14);font-size:14px;color:#C7CCD5}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin-bottom:14px}
+.card h2{font-size:15px;font-weight:700;margin:0 0 10px}
+.card p{margin:0 0 10px}
+.card p:last-child{margin-bottom:0}
+.card ul{margin:0;padding-left:20px}
+.card li{margin-bottom:7px}
+.card li:last-child{margin-bottom:0}
+
+.fine{display:flex;align-items:baseline;gap:12px;padding:11px 0;border-top:1px solid var(--line)}
+.fine:first-of-type{border-top:none;padding-top:0}
+.fine-what{flex:1}
+.fine-what b{display:block;font-weight:600}
+.fine-what small{color:var(--muted);font-size:14px}
+.fine-amt{font-weight:700;color:var(--red);white-space:nowrap}
+
+.period{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line)}
+.period:first-of-type{border-top:none;padding-top:0}
+.period span{color:var(--muted)}
+
+.callout{background:#FDF3F2;border:1px solid #F3D9D6;border-radius:var(--radius);padding:18px;margin-bottom:14px}
+.callout h2{font-size:15px;font-weight:700;margin:0 0 8px;color:var(--red)}
+.callout p{margin:0 0 10px}
+.callout p:last-child{margin-bottom:0}
+
+.small{color:var(--muted);font-size:14px}
+footer{color:var(--muted);font-size:13px;text-align:center;margin-top:26px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="top">
+    <div>
+      <h1 class="title">Rules</h1>
+      <p class="sub">No Haaland No Party</p>
+    </div>
+    <a class="btn-link" href="./">Back</a>
+  </div>
+</header>
+
+<div class="hero">
+  <p class="hero-label">Entry</p>
+  <p class="hero-figure num">£20</p>
+  <p class="note">Winner takes the lot. Everyone pays in except whoever finishes bottom — they have a different problem.</p>
+</div>
+
+<section class="card">
+  <h2>The transfer pot</h2>
+  <p>Separate from the entry money. Every fine and every transfer fee goes in here, and it gets emptied five times a season.</p>
+  <p><strong>£1 per transfer</strong>, all season. Wildcard and Free Hit moves are free — make as many as you like on a chip.</p>
+  <p class="small">A −4 hit is two transfers, so it costs £2 on top of the points.</p>
+</section>
+
+<section class="card">
+  <h2>Fines</h2>
+  <div class="fine">
+    <div class="fine-what"><b>Captain flops</b><small>Your captain scores 4 points or fewer</small></div>
+    <div class="fine-amt">£4</div>
+  </div>
+  <div class="fine">
+    <div class="fine-what"><b>Triple captain flops</b><small>Your triple captain scores 6 points or fewer</small></div>
+    <div class="fine-amt">£10</div>
+  </div>
+  <div class="fine">
+    <div class="fine-what"><b>Haaland</b><small>Owning the banned man, each time you buy him</small></div>
+    <div class="fine-amt">£10</div>
+  </div>
+  <p class="small" style="margin-top:12px">Captain scores are the player's own points, before doubling. If your captain doesn't play and the armband passes to your vice, it's the vice's score that counts.</p>
+</section>
+
+<section class="card">
+  <h2>Paying out the pot</h2>
+  <p>Whoever scores the most FPL points across each two-month block takes everything in the pot at that moment. Then it starts filling again.</p>
+  <div class="period"><b>1</b><span>August / September</span></div>
+  <div class="period"><b>2</b><span>October / November</span></div>
+  <div class="period"><b>3</b><span>December / January</span></div>
+  <div class="period"><b>4</b><span>February / March</span></div>
+  <div class="period"><b>5</b><span>April / May</span></div>
+</section>
+
+<section class="callout">
+  <h2>Haaland is banned</h2>
+  <p>Nobody owns him. Not for a week, not for a differential, not because he's on a hat-trick.</p>
+  <p>The site checks every squad after every deadline, so there's no getting away with it.</p>
+</section>
+
+<section class="card">
+  <h2>Finishing bottom</h2>
+  <p>Last place doesn't pay the £20 — which is the good news, and where the good news ends.</p>
+  <p>Instead they pay for themselves to be a mascot at a football match. Everyone else comes along and makes a day of it.</p>
+</section>
+
+<section class="card">
+  <h2>How the money is worked out</h2>
+  <p>Nobody records anything by hand. The site reads Fantasy Premier League directly every couple of hours and recalculates the whole season from scratch each time.</p>
+  <p>That means no double-charging, no forgetting, and no debate. Every fee and fine is listed with a date on the <a href="./">main page</a> under <strong>Every penny</strong>.</p>
+</section>
+
+<footer>Disputes go to the ledger, not the group chat.</footer>
+</div>
+</body>
+</html>

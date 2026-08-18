@@ -3,321 +3,243 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0F1115">
 <title>The Slate</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#DAD6C8;
-  --paper-shade:#CFCABA;
-  --rule:#B3AE9C;
-  --ink:#16130F;
-  --ink-soft:#5C564A;
-  --red:#A81E1E;
-  --green:#2E5A38;
-  --stamp:#37003C;
-  --gate:34px;
+  --bg:#F6F6F4;
+  --card:#FFFFFF;
+  --ink:#14161A;
+  --muted:#6E7480;
+  --line:#E8E8E4;
+  --red:#C0342B;
+  --green:#12764A;
+  --dark:#0F1115;
+  --radius:14px;
 }
-*{box-sizing:border-box}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{-webkit-text-size-adjust:100%}
 body{
-  margin:0;
-  background:var(--paper);
-  background-image:repeating-linear-gradient(to bottom,transparent 0 31px,var(--rule) 31px 32px);
-  color:var(--ink);
-  font-family:"Courier Prime",ui-monospace,monospace;
-  font-size:15px;
-  line-height:32px;
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
 }
-.wrap{max-width:940px;margin:0 auto;padding:0 20px 80px}
-
-/* ---------- type ---------- */
-h1,h2{font-family:Archivo,system-ui,sans-serif;margin:0;line-height:1.05}
-h1{font-weight:900;font-size:clamp(44px,11vw,88px);letter-spacing:-.035em;text-transform:uppercase}
-h2{font-weight:900;font-size:15px;letter-spacing:.16em;text-transform:uppercase;line-height:32px}
-.eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft)}
+.wrap{max-width:620px;margin:0 auto;padding:20px 16px 64px}
 .num{font-variant-numeric:tabular-nums}
 
-/* ---------- masthead ---------- */
-header{padding:64px 0 0}
-.masthead-sub{display:flex;flex-wrap:wrap;gap:6px 22px;padding-top:8px;border-top:2px solid var(--ink);margin-top:12px}
+/* header */
+header{padding:8px 0 20px}
+.title{font-size:24px;font-weight:800;letter-spacing:-.02em;margin:0}
+.sub{color:var(--muted);font-size:14px;margin:2px 0 0}
 
-/* ---------- the pot ---------- */
-.pot{
-  display:flex;flex-wrap:wrap;align-items:flex-end;gap:8px 40px;
-  margin:32px 0;padding:24px 0;
-  border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);
+/* hero */
+.hero{
+  background:var(--dark);color:#fff;border-radius:var(--radius);
+  padding:22px 20px;margin-bottom:14px;
 }
-.pot-figure{font-family:Archivo,sans-serif;font-weight:900;font-size:clamp(66px,17vw,132px);line-height:.9;letter-spacing:-.05em;color:var(--red)}
-.pot-meta{flex:1;min-width:190px}
-.pot-meta dl{margin:0}
-.pot-meta div{display:flex;justify-content:space-between;gap:16px;border-bottom:1px dotted var(--rule)}
-.pot-meta dt{color:var(--ink-soft)}
-.pot-meta dd{margin:0;font-weight:700}
+.hero-label{font-size:13px;font-weight:500;color:#9BA1AD;margin:0}
+.hero-figure{font-size:52px;font-weight:800;letter-spacing:-.035em;line-height:1.05;margin:2px 0 0}
+.hero-foot{display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.14);font-size:14px}
+.hero-foot span{color:#9BA1AD}
+.hero-foot b{color:#fff;font-weight:600}
 
-/* ---------- sections ---------- */
-section{margin:56px 0 0}
-.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:2px solid var(--ink);margin-bottom:8px}
-.sec-head .eyebrow{white-space:nowrap}
+/* cards */
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:14px}
+.card h2{font-size:15px;font-weight:700;letter-spacing:-.01em;margin:0}
+.card-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:10px}
+.card-head p{margin:0;font-size:13px;color:var(--muted);text-align:right}
 
-/* ---------- tables ---------- */
-table{width:100%;border-collapse:collapse}
-th{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);text-align:left;font-weight:400;border-bottom:1px solid var(--rule)}
-td,th{padding:0 10px;height:32px;vertical-align:middle}
-td:first-child,th:first-child{padding-left:0}
-td:last-child,th:last-child{padding-right:0;text-align:right}
-th:last-child{text-align:right}
-tbody tr:nth-child(even){background:var(--paper-shade)}
-.pos{width:34px;color:var(--ink-soft)}
-.money{font-weight:700;color:var(--red)}
-.money.zero{color:var(--ink-soft);font-weight:400}
-.money.credit{color:var(--green)}
-.name{font-weight:700}
-.team{color:var(--ink-soft);font-size:13px}
+/* rows */
+.row{display:flex;align-items:center;gap:12px;padding:11px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:none;padding-top:2px}
+.rank{width:20px;flex:none;font-size:14px;color:var(--muted);font-weight:600}
+.who{flex:1;min-width:0}
+.who b{display:block;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.who small{display:block;color:var(--muted);font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.val{flex:none;font-weight:700;text-align:right}
+.val small{display:block;font-weight:500;font-size:13px;color:var(--muted)}
+.money{color:var(--red)}
+.credit{color:var(--green)}
 
-/* ---------- tags ---------- */
-.tag{display:inline-block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:0 7px;border:1px solid currentColor;line-height:19px;vertical-align:2px}
-.tag-mascot{color:var(--stamp)}
-.tag-lead{color:var(--green)}
-.tag-ban{color:var(--red);background:var(--red);color:var(--paper);border-color:var(--red)}
+/* bar */
+.bar{height:5px;border-radius:3px;background:var(--line);margin-top:7px;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:3px;background:var(--red)}
 
-/* ---------- tally ---------- */
-.tally-row{display:grid;grid-template-columns:1fr auto;gap:4px 20px;padding:14px 0;border-bottom:1px dotted var(--rule);align-items:center}
-.tally-row:last-child{border-bottom:none}
-.tally-name{display:flex;align-items:baseline;gap:10px}
-.tally-cost{font-family:Archivo,sans-serif;font-weight:900;font-size:26px;color:var(--red);letter-spacing:-.03em}
-.gates{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:9px}
-.gates svg{display:block;overflow:visible}
-.gates path{stroke:var(--red);stroke-width:2.4;stroke-linecap:round;fill:none}
-@media (prefers-reduced-motion:no-preference){
-  .gates path{stroke-dasharray:44;stroke-dashoffset:44;animation:scratch .34s ease-out forwards}
-}
-@keyframes scratch{to{stroke-dashoffset:0}}
+/* pills */
+.pill{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:99px;vertical-align:1px;margin-left:6px}
+.pill-lead{background:#E4F2EA;color:var(--green)}
+.pill-mascot{background:#EDEDF2;color:#54596A}
+.pill-ban{background:var(--red);color:#fff}
 
-/* ---------- ledger ---------- */
-.ledger{max-height:460px;overflow-y:auto;border-bottom:2px solid var(--ink)}
-.ledger table{font-size:14px}
-.ledger thead th{position:sticky;top:0;background:var(--paper);box-shadow:0 1px 0 var(--rule)}
-.desc{color:var(--ink-soft)}
+/* ledger */
+.led{display:flex;gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:15px}
+.led:first-of-type{border-top:none}
+.led-main{flex:1;min-width:0}
+.led-main b{font-weight:600}
+.led-main small{display:block;color:var(--muted);font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.led-amt{font-weight:700;white-space:nowrap}
 
-/* ---------- buttons ---------- */
+/* buttons */
 button{
-  font:inherit;font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:12px;
-  background:var(--ink);color:var(--paper);border:none;padding:9px 16px;cursor:pointer;
+  font:inherit;font-weight:600;font-size:15px;width:100%;
+  background:var(--dark);color:#fff;border:none;border-radius:10px;
+  padding:14px;cursor:pointer;
 }
-button:hover{background:var(--stamp)}
-button:focus-visible,a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
+button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line);padding:10px;font-size:14px;margin-top:10px}
+button:active{opacity:.85}
+button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 
-/* ---------- states ---------- */
-.empty{padding:28px 0;color:var(--ink-soft);max-width:52ch}
-footer{margin-top:64px;padding-top:12px;border-top:2px solid var(--ink);color:var(--ink-soft);font-size:13px}
-@media(max-width:620px){
-  .pot{gap:16px}
-  .team,.hide-sm{display:none}
-}
+.empty{color:var(--muted);font-size:15px;margin:4px 0 0}
+footer{color:var(--muted);font-size:13px;text-align:center;margin-top:26px}
+@media(min-width:560px){ .hero-figure{font-size:62px} .wrap{padding-top:32px} }
 </style>
 </head>
 <body>
 <div class="wrap">
 
 <header>
-  <p class="eyebrow" id="league-name">Loading…</p>
-  <h1>The Slate</h1>
-  <div class="masthead-sub">
-    <span class="eyebrow">League 455987</span>
-    <span class="eyebrow" id="gw-label">—</span>
-    <span class="eyebrow" id="updated">—</span>
-  </div>
+  <h1 class="title">The Slate</h1>
+  <p class="sub" id="sub">Loading…</p>
 </header>
 
-<main id="app">
-  <p class="empty">Reading the slate…</p>
-</main>
+<main id="app"></main>
 
-<footer>
-  Every figure is pulled straight from Fantasy Premier League. Nobody types anything in.
-</footer>
+<footer>Pulled straight from FPL. Nobody types anything in.</footer>
 </div>
 
 <script>
 const fmt = n => '£' + Number(n).toLocaleString('en-GB');
-const el = (t, c, h) => { const e = document.createElement(t); if (c) e.className = c; if (h !== undefined) e.innerHTML = h; return e; };
+const pts = n => Number(n).toLocaleString('en-GB');
 
-/* A five-bar gate: four uprights and a diagonal through them. */
-function gate(count){
-  const w = 26, h = 22;
-  const paths = [];
-  for (let i = 0; i < Math.min(count, 4); i++){
-    const x = 3 + i * 5.5;
-    paths.push(`<path d="M${x} 2 L${x - 1.5} ${h - 2}" style="animation-delay:${i * 40}ms"/>`);
-  }
-  if (count === 5) paths.push(`<path d="M0 ${h - 3} L${w - 4} 3" style="animation-delay:170ms"/>`);
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true">${paths.join('')}</svg>`;
+function card(title, note, inner){
+  return `<section class="card">
+    <div class="card-head"><h2>${title}</h2>${note ? `<p>${note}</p>` : ''}</div>
+    ${inner}
+  </section>`;
 }
-function gates(total){
-  const out = [];
-  let left = total;
-  while (left > 0){ out.push(gate(Math.min(left, 5))); left -= 5; }
-  return out.join('');
-}
-
-function table(headers, rows){
-  const t = el('table');
-  t.innerHTML = '<thead><tr>' + headers.map(h => `<th${h.sm ? ' class="hide-sm"' : ''}>${h.label ?? h}</th>`).join('') + '</tr></thead>';
-  const tb = el('tbody');
-  rows.forEach(r => { const tr = el('tr'); tr.innerHTML = r; tb.appendChild(tr); });
-  t.appendChild(tb);
-  return t;
-}
-
-function section(title, note, node){
-  const s = el('section');
-  const head = el('div', 'sec-head');
-  head.appendChild(el('h2', null, title));
-  if (note) head.appendChild(el('span', 'eyebrow', note));
-  s.appendChild(head);
-  s.appendChild(node);
-  return s;
-}
-
-function empty(msg){ return el('p', 'empty', msg); }
 
 function render(d){
-  document.getElementById('league-name').textContent = d.leagueName || 'Private league';
-  document.getElementById('gw-label').textContent = d.currentGameweek ? `Gameweek ${d.currentGameweek}` : 'Pre-season';
-  document.getElementById('updated').textContent = 'Updated ' + new Date(d.generatedAt)
-    .toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+  document.getElementById('sub').textContent =
+    `${d.leagueName || 'Private league'} · ${d.currentGameweek ? 'GW' + d.currentGameweek : 'Pre-season'} · updated ` +
+    new Date(d.generatedAt).toLocaleString('en-GB',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
 
-  const app = document.getElementById('app');
-  app.innerHTML = '';
+  const out = [];
 
-  /* ---- the pot ---- */
-  const pot = el('div', 'pot');
-  pot.innerHTML = `
-    <div>
-      <p class="eyebrow">In the transfer pot</p>
-      <div class="pot-figure num">${fmt(d.transferPot.balance)}</div>
+  /* hero */
+  out.push(`<div class="hero">
+    <p class="hero-label">In the transfer pot</p>
+    <p class="hero-figure num">${fmt(d.transferPot.balance)}</p>
+    <div class="hero-foot">
+      <span>Next payout <b>${d.transferPot.nextPeriod ?? 'Season over'}</b></span>
+      <span>Winner takes <b class="num">${fmt(d.mainPot)}</b></span>
     </div>
-    <div class="pot-meta">
-      <dl>
-        <div><dt>Next payout</dt><dd>${d.transferPot.nextPeriod ?? 'Season over'}</dd></div>
-        <div><dt>Paid in so far</dt><dd class="num">${fmt(d.transferPot.paidIn)}</dd></div>
-        <div><dt>Paid out</dt><dd class="num">${fmt(d.transferPot.paidOut)}</dd></div>
-        <div><dt>Winner takes</dt><dd class="num">${fmt(d.mainPot)}</dd></div>
-      </dl>
-    </div>`;
-  app.appendChild(pot);
+  </div>`);
 
-  /* ---- league table ---- */
+  /* league table */
   const last = d.standings.length - 1;
-  app.appendChild(section('League table', 'Winner takes ' + fmt(d.mainPot),
-    table(['', 'Manager', { label: 'Team', sm: true }, 'Points'],
-      d.standings.map((m, i) => `
-        <td class="pos num">${i + 1}</td>
-        <td><span class="name">${m.name}</span>${i === last && d.currentGameweek ? ' <span class="tag tag-mascot">Mascot duty</span>' : ''}</td>
-        <td class="team hide-sm">${m.teamName}</td>
-        <td class="num"><strong>${m.totalPoints.toLocaleString('en-GB')}</strong></td>`))));
+  out.push(card('League table', `Winner takes ${fmt(d.mainPot)}`,
+    d.standings.map((m,i) => `<div class="row">
+      <div class="rank num">${i+1}</div>
+      <div class="who"><b>${m.name}${i===last && d.currentGameweek ? '<span class="pill pill-mascot">Mascot</span>' : ''}</b><small>${m.teamName}</small></div>
+      <div class="val num">${pts(m.totalPoints)}</div>
+    </div>`).join('')));
 
-  /* ---- current period ---- */
-  const live = d.periods.find(p => !p.complete && p.gameweeks.some(g => g <= (d.currentGameweek ?? 0)));
-  if (live && live.table.some(r => r.points > 0)){
-    app.appendChild(section(live.label + ' race', `Gameweeks ${live.gameweeks[0]}–${live.gameweeks.at(-1)}`,
-      table(['', 'Manager', 'Points in period'],
-        live.table.map((r, i) => `
-          <td class="pos num">${i + 1}</td>
-          <td><span class="name">${r.name}</span>${i === 0 ? ' <span class="tag tag-lead">Leading</span>' : ''}</td>
-          <td class="num">${r.points.toLocaleString('en-GB')}</td>`))));
+  /* current period */
+  const live = d.periods.find(p => !p.complete && p.table.some(r => r.points > 0));
+  if (live){
+    out.push(card(live.label, `GW${live.gameweeks[0]}–${live.gameweeks.at(-1)}`,
+      live.table.map((r,i) => `<div class="row">
+        <div class="rank num">${i+1}</div>
+        <div class="who"><b>${r.name}${i===0 ? '<span class="pill pill-lead">Leading</span>' : ''}</b></div>
+        <div class="val num">${pts(r.points)}</div>
+      </div>`).join('')));
   }
 
-  /* ---- settled periods ---- */
+  /* settled periods */
   const done = d.periods.filter(p => p.complete && p.winner);
   if (done.length){
-    app.appendChild(section('Pots already won', null,
-      table(['Period', 'Winner', 'Points'],
-        done.map(p => `
-          <td>${p.label}</td>
-          <td class="name">${p.winner.name}</td>
-          <td class="num">${p.winner.points.toLocaleString('en-GB')}</td>`))));
+    out.push(card('Pots won', null,
+      done.map(p => `<div class="row">
+        <div class="who"><b>${p.winner.name}</b><small>${p.label}</small></div>
+        <div class="val num">${pts(p.winner.points)}</div>
+      </div>`).join('')));
   }
 
-  /* ---- the tally ---- */
-  const spenders = [...d.contributions].sort((a, b) => b.transfers - a.transfers);
-  const anyTransfers = spenders.some(m => m.transfers > 0);
-  const tally = el('div');
-  if (anyTransfers){
-    spenders.forEach(m => {
-      const row = el('div', 'tally-row');
-      row.innerHTML = `
-        <div class="tally-name"><span class="name">${m.name}</span>
-          <span class="eyebrow">${m.transfers} transfer${m.transfers === 1 ? '' : 's'}</span></div>
-        <div class="tally-cost num">${fmt(m.transferFees)}</div>
-        <div class="gates">${gates(m.transfers)}</div>`;
-      tally.appendChild(row);
-    });
-  } else {
-    tally.appendChild(empty('Nothing on the slate yet. A transfer shows up here within two hours of it being made — wildcard and free hit moves excluded.'));
-  }
-  app.appendChild(section('The tally', '£1 a stroke', tally));
+  /* transfers */
+  const spend = [...d.contributions].sort((a,b) => b.transfers - a.transfers);
+  const max = Math.max(...spend.map(m => m.transfers), 1);
+  out.push(card('Transfers', '£1 each',
+    spend.some(m => m.transfers)
+      ? spend.map(m => `<div class="row">
+          <div class="who">
+            <b>${m.name}</b>
+            <div class="bar"><i style="width:${Math.max((m.transfers/max)*100, m.transfers?4:0)}%"></i></div>
+          </div>
+          <div class="val money num">${fmt(m.transferFees)}<small>${m.transfers} made</small></div>
+        </div>`).join('')
+      : '<p class="empty">Nothing yet. Transfers appear within two hours — wildcard and free hit moves don\'t count.</p>'));
 
-  /* ---- fines ---- */
-  const fined = d.contributions.filter(m => m.captainFines || m.haalandFines);
-  app.appendChild(section('Fines', 'Captain £4 · Triple captain £10 · Haaland £10',
+  /* fines */
+  const fined = d.contributions.filter(m => m.captainFines || m.haalandFines)
+    .sort((a,b) => (b.captainFines+b.haalandFines) - (a.captainFines+a.haalandFines));
+  out.push(card('Fines', 'Captain £4 · Triple £10 · Haaland £10',
     fined.length
-      ? table(['Manager', 'Captain', 'Haaland', 'Total'],
-          [...fined].sort((a, b) => (b.captainFines + b.haalandFines) - (a.captainFines + a.haalandFines)).map(m => `
-            <td class="name">${m.name}${m.haalandFines ? ' <span class="tag tag-ban">Banned player</span>' : ''}</td>
-            <td class="money num ${m.captainFines ? '' : 'zero'}">${fmt(m.captainFines)}</td>
-            <td class="money num ${m.haalandFines ? '' : 'zero'}">${fmt(m.haalandFines)}</td>
-            <td class="money num">${fmt(m.captainFines + m.haalandFines)}</td>`))
-      : empty('No fines yet. Every captain has cleared four points and nobody has touched Haaland.')));
+      ? fined.map(m => `<div class="row">
+          <div class="who"><b>${m.name}${m.haalandFines ? '<span class="pill pill-ban">Haaland</span>' : ''}</b>
+            <small>${[m.captainFines ? `Captain ${fmt(m.captainFines)}` : null, m.haalandFines ? `Haaland ${fmt(m.haalandFines)}` : null].filter(Boolean).join(' · ')}</small></div>
+          <div class="val money num">${fmt(m.captainFines + m.haalandFines)}</div>
+        </div>`).join('')
+      : '<p class="empty">No fines yet. Every captain has cleared four points and nobody has touched Haaland.</p>'));
 
-  /* ---- ledger ---- */
-  const ledgerBox = el('div', 'ledger');
-  if (d.ledger.length){
-    ledgerBox.appendChild(table([{ label: 'Date', sm: true }, 'GW', 'Manager', { label: 'Detail', sm: true }, 'Amount'],
-      [...d.ledger].reverse().map(l => `
-        <td class="hide-sm">${new Date(l.date).toLocaleDateString('en-GB', { day: '2-digit', month: 'short' })}</td>
-        <td class="num">${l.gw ?? '—'}</td>
-        <td class="name">${l.manager}</td>
-        <td class="desc hide-sm">${l.description}</td>
-        <td class="money num ${l.amount < 0 ? 'credit' : ''}">${l.amount < 0 ? '−' : ''}${fmt(Math.abs(l.amount))}</td>`)));
-  } else {
-    ledgerBox.appendChild(empty('The ledger fills itself as the season runs.'));
-  }
-  app.appendChild(section('Every penny', d.ledger.length + ' entries', ledgerBox));
+  /* ledger */
+  const L = [...d.ledger].reverse();
+  out.push(card('Every penny', `${L.length} entries`,
+    L.length
+      ? `<div id="led">${L.slice(0,8).map(ledRow).join('')}</div>
+         ${L.length > 8 ? '<button class="ghost" id="more">Show all ' + L.length + '</button>' : ''}`
+      : '<p class="empty">Fills itself as the season runs.</p>'));
 
-  /* ---- share ---- */
-  const share = el('div');
-  share.style.marginTop = '24px';
-  const btn = el('button', null, 'Copy update for WhatsApp');
-  btn.onclick = async () => {
-    const top = spenders[0];
-    const lines = [
-      `*${d.leagueName || 'The league'}* — after GW${d.currentGameweek ?? 0}`,
-      '',
-      ...d.standings.slice(0, 3).map((m, i) => `${i + 1}. ${m.name} — ${m.totalPoints}`),
-      '',
+  out.push('<button id="copy">Copy update for WhatsApp</button>');
+
+  document.getElementById('app').innerHTML = out.join('');
+
+  const more = document.getElementById('more');
+  if (more) more.onclick = () => { document.getElementById('led').innerHTML = L.map(ledRow).join(''); more.remove(); };
+
+  document.getElementById('copy').onclick = async (e) => {
+    const b = e.target, top = spend[0];
+    const msg = [
+      `*${d.leagueName || 'The league'}* — after GW${d.currentGameweek ?? 0}`, '',
+      ...d.standings.slice(0,3).map((m,i) => `${i+1}. ${m.name} — ${pts(m.totalPoints)}`), '',
       `Transfer pot: ${fmt(d.transferPot.balance)}`,
-      top && top.transfers ? `Biggest spender: ${top.name}, ${top.transfers} transfers (${fmt(top.transferFees)})` : null,
-      live ? `${live.label} lead: ${live.table[0].name}` : null,
-      '',
-      'Full ledger: ' + location.href,
+      top && top.transfers ? `Biggest spender: ${top.name} — ${top.transfers} transfers (${fmt(top.transferFees)})` : null,
+      live ? `${live.label} lead: ${live.table[0].name}` : null, '',
+      location.href
     ].filter(Boolean).join('\n');
-    try { await navigator.clipboard.writeText(lines); btn.textContent = 'Copied'; }
-    catch { btn.textContent = 'Press ctrl+C'; prompt('Copy this:', lines); }
-    setTimeout(() => (btn.textContent = 'Copy update for WhatsApp'), 2200);
+    try { await navigator.clipboard.writeText(msg); b.textContent = 'Copied'; }
+    catch { prompt('Copy this:', msg); }
+    setTimeout(() => b.textContent = 'Copy update for WhatsApp', 2000);
   };
-  share.appendChild(btn);
-  app.appendChild(share);
+}
+
+function ledRow(l){
+  return `<div class="led">
+    <div class="led-main"><b>${l.manager}</b><small>${l.description}${l.gw ? ' · GW' + l.gw : ''}</small></div>
+    <div class="led-amt num ${l.amount < 0 ? 'credit' : 'money'}">${l.amount < 0 ? '−' : ''}${fmt(Math.abs(l.amount))}</div>
+  </div>`;
 }
 
 fetch('data.json?' + Date.now())
-  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(r => { if (!r.ok) throw 0; return r.json(); })
   .then(render)
   .catch(() => {
+    document.getElementById('sub').textContent = 'No data yet';
     document.getElementById('app').innerHTML =
-      '<p class="empty">No data file yet. Run <strong>node scripts/build-data.js</strong> to write public/data.json, then reload.</p>';
+      '<section class="card"><p class="empty">Run the <b>Update FPL data</b> workflow in GitHub Actions to fill this in.</p></section>';
   });
 </script>
 </body>

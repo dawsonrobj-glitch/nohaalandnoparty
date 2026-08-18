@@ -1,0 +1,1055 @@
+{
+  "generatedAt": "2026-08-18T15:13:27.973Z",
+  "leagueName": "No Haaland Allowed",
+  "currentGameweek": 3,
+  "rules": {},
+  "standings": [
+    {
+      "entryId": 100001,
+      "name": "Mark",
+      "teamName": "Marks & Spencer",
+      "totalPoints": 245,
+      "leagueRank": 1,
+      "chargeableTransfers": 9,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 100008,
+      "name": "Andy",
+      "teamName": "Kloppers",
+      "totalPoints": 227,
+      "leagueRank": 2,
+      "chargeableTransfers": 6,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 100006,
+      "name": "Jonny",
+      "teamName": "Bald Fraud",
+      "totalPoints": 224,
+      "leagueRank": 3,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 100003,
+      "name": "Waddy",
+      "teamName": "Waddy Wanderers",
+      "totalPoints": 219,
+      "leagueRank": 4,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 100005,
+      "name": "Tom",
+      "teamName": "Tom Foolery",
+      "totalPoints": 212,
+      "leagueRank": 5,
+      "chargeableTransfers": 11,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 100009,
+      "name": "Baz",
+      "teamName": "Barry’s Bunch",
+      "totalPoints": 212,
+      "leagueRank": 6,
+      "chargeableTransfers": 12,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 100004,
+      "name": "Chris",
+      "teamName": "Sons of Pitches",
+      "totalPoints": 206,
+      "leagueRank": 7,
+      "chargeableTransfers": 2,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 100007,
+      "name": "Si",
+      "teamName": "Simeone Says",
+      "totalPoints": 192,
+      "leagueRank": 8,
+      "chargeableTransfers": 2,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 100002,
+      "name": "Dave",
+      "teamName": "Dave FC",
+      "totalPoints": 184,
+      "leagueRank": 9,
+      "chargeableTransfers": 6,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 100000,
+      "name": "Rob",
+      "teamName": "Dawson’s XI",
+      "totalPoints": 180,
+      "leagueRank": 10,
+      "chargeableTransfers": 2,
+      "totalTransfers": 0
+    }
+  ],
+  "transferPot": {
+    "balance": 82,
+    "paidIn": 82,
+    "paidOut": 0,
+    "nextPeriod": "August/September"
+  },
+  "mainPot": 180,
+  "contributions": [
+    {
+      "entryId": 100005,
+      "name": "Tom",
+      "transfers": 11,
+      "transferFees": 11,
+      "captainFines": 10,
+      "haalandFines": 0,
+      "total": 21
+    },
+    {
+      "entryId": 100008,
+      "name": "Andy",
+      "transfers": 6,
+      "transferFees": 6,
+      "captainFines": 4,
+      "haalandFines": 10,
+      "total": 20
+    },
+    {
+      "entryId": 100001,
+      "name": "Mark",
+      "transfers": 9,
+      "transferFees": 9,
+      "captainFines": 4,
+      "haalandFines": 0,
+      "total": 13
+    },
+    {
+      "entryId": 100009,
+      "name": "Baz",
+      "transfers": 12,
+      "transferFees": 12,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 12
+    },
+    {
+      "entryId": 100004,
+      "name": "Chris",
+      "transfers": 2,
+      "transferFees": 2,
+      "captainFines": 4,
+      "haalandFines": 0,
+      "total": 6
+    },
+    {
+      "entryId": 100002,
+      "name": "Dave",
+      "transfers": 6,
+      "transferFees": 6,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 6
+    },
+    {
+      "entryId": 100007,
+      "name": "Si",
+      "transfers": 2,
+      "transferFees": 2,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 2
+    },
+    {
+      "entryId": 100000,
+      "name": "Rob",
+      "transfers": 2,
+      "transferFees": 2,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 2
+    },
+    {
+      "entryId": 100006,
+      "name": "Jonny",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    },
+    {
+      "entryId": 100003,
+      "name": "Waddy",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    }
+  ],
+  "periods": [
+    {
+      "key": "aug_sep",
+      "label": "August/September",
+      "months": [
+        8,
+        9
+      ],
+      "gameweeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "complete": false,
+      "table": [
+        {
+          "entryId": 100001,
+          "name": "Mark",
+          "points": 152
+        },
+        {
+          "entryId": 100008,
+          "name": "Andy",
+          "points": 141
+        },
+        {
+          "entryId": 100006,
+          "name": "Jonny",
+          "points": 139
+        },
+        {
+          "entryId": 100003,
+          "name": "Waddy",
+          "points": 136
+        },
+        {
+          "entryId": 100005,
+          "name": "Tom",
+          "points": 131
+        },
+        {
+          "entryId": 100009,
+          "name": "Baz",
+          "points": 131
+        },
+        {
+          "entryId": 100004,
+          "name": "Chris",
+          "points": 128
+        },
+        {
+          "entryId": 100007,
+          "name": "Si",
+          "points": 119
+        },
+        {
+          "entryId": 100002,
+          "name": "Dave",
+          "points": 114
+        },
+        {
+          "entryId": 100000,
+          "name": "Rob",
+          "points": 112
+        }
+      ],
+      "winner": null
+    },
+    {
+      "key": "oct_nov",
+      "label": "October/November",
+      "months": [
+        10,
+        11
+      ],
+      "gameweeks": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "complete": false,
+      "table": [
+        {
+          "entryId": 100001,
+          "name": "Mark",
+          "points": 0
+        },
+        {
+          "entryId": 100008,
+          "name": "Andy",
+          "points": 0
+        },
+        {
+          "entryId": 100006,
+          "name": "Jonny",
+          "points": 0
+        },
+        {
+          "entryId": 100003,
+          "name": "Waddy",
+          "points": 0
+        },
+        {
+          "entryId": 100005,
+          "name": "Tom",
+          "points": 0
+        },
+        {
+          "entryId": 100009,
+          "name": "Baz",
+          "points": 0
+        },
+        {
+          "entryId": 100004,
+          "name": "Chris",
+          "points": 0
+        },
+        {
+          "entryId": 100007,
+          "name": "Si",
+          "points": 0
+        },
+        {
+          "entryId": 100002,
+          "name": "Dave",
+          "points": 0
+        },
+        {
+          "entryId": 100000,
+          "name": "Rob",
+          "points": 0
+        }
+      ],
+      "winner": null
+    },
+    {
+      "key": "dec_jan",
+      "label": "December/January",
+      "months": [
+        12,
+        1
+      ],
+      "gameweeks": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "complete": false,
+      "table": [
+        {
+          "entryId": 100001,
+          "name": "Mark",
+          "points": 0
+        },
+        {
+          "entryId": 100008,
+          "name": "Andy",
+          "points": 0
+        },
+        {
+          "entryId": 100006,
+          "name": "Jonny",
+          "points": 0
+        },
+        {
+          "entryId": 100003,
+          "name": "Waddy",
+          "points": 0
+        },
+        {
+          "entryId": 100005,
+          "name": "Tom",
+          "points": 0
+        },
+        {
+          "entryId": 100009,
+          "name": "Baz",
+          "points": 0
+        },
+        {
+          "entryId": 100004,
+          "name": "Chris",
+          "points": 0
+        },
+        {
+          "entryId": 100007,
+          "name": "Si",
+          "points": 0
+        },
+        {
+          "entryId": 100002,
+          "name": "Dave",
+          "points": 0
+        },
+        {
+          "entryId": 100000,
+          "name": "Rob",
+          "points": 0
+        }
+      ],
+      "winner": null
+    },
+    {
+      "key": "feb_mar",
+      "label": "February/March",
+      "months": [
+        2,
+        3
+      ],
+      "gameweeks": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "complete": false,
+      "table": [
+        {
+          "entryId": 100001,
+          "name": "Mark",
+          "points": 0
+        },
+        {
+          "entryId": 100008,
+          "name": "Andy",
+          "points": 0
+        },
+        {
+          "entryId": 100006,
+          "name": "Jonny",
+          "points": 0
+        },
+        {
+          "entryId": 100003,
+          "name": "Waddy",
+          "points": 0
+        },
+        {
+          "entryId": 100005,
+          "name": "Tom",
+          "points": 0
+        },
+        {
+          "entryId": 100009,
+          "name": "Baz",
+          "points": 0
+        },
+        {
+          "entryId": 100004,
+          "name": "Chris",
+          "points": 0
+        },
+        {
+          "entryId": 100007,
+          "name": "Si",
+          "points": 0
+        },
+        {
+          "entryId": 100002,
+          "name": "Dave",
+          "points": 0
+        },
+        {
+          "entryId": 100000,
+          "name": "Rob",
+          "points": 0
+        }
+      ],
+      "winner": null
+    },
+    {
+      "key": "apr_may",
+      "label": "April/May",
+      "months": [
+        4,
+        5
+      ],
+      "gameweeks": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "complete": false,
+      "table": [
+        {
+          "entryId": 100001,
+          "name": "Mark",
+          "points": 0
+        },
+        {
+          "entryId": 100008,
+          "name": "Andy",
+          "points": 0
+        },
+        {
+          "entryId": 100006,
+          "name": "Jonny",
+          "points": 0
+        },
+        {
+          "entryId": 100003,
+          "name": "Waddy",
+          "points": 0
+        },
+        {
+          "entryId": 100005,
+          "name": "Tom",
+          "points": 0
+        },
+        {
+          "entryId": 100009,
+          "name": "Baz",
+          "points": 0
+        },
+        {
+          "entryId": 100004,
+          "name": "Chris",
+          "points": 0
+        },
+        {
+          "entryId": 100007,
+          "name": "Si",
+          "points": 0
+        },
+        {
+          "entryId": 100002,
+          "name": "Dave",
+          "points": 0
+        },
+        {
+          "entryId": 100000,
+          "name": "Rob",
+          "points": 0
+        }
+      ],
+      "winner": null
+    }
+  ],
+  "managers": [],
+  "ledger": [
+    {
+      "entryId": 100001,
+      "manager": "Mark",
+      "gw": 1,
+      "date": "2026-08-01T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Salah → Saka"
+    },
+    {
+      "entryId": 100001,
+      "manager": "Mark",
+      "gw": 2,
+      "date": "2026-08-05T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Palmer → Foden"
+    },
+    {
+      "entryId": 100001,
+      "manager": "Mark",
+      "gw": 3,
+      "date": "2026-08-09T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Isak → Watkins"
+    },
+    {
+      "entryId": 100001,
+      "manager": "Mark",
+      "gw": 1,
+      "date": "2026-08-13T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Gordon → Mbeumo"
+    },
+    {
+      "entryId": 100001,
+      "manager": "Mark",
+      "gw": 2,
+      "date": "2026-08-17T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Wirtz → Rogers"
+    },
+    {
+      "entryId": 100001,
+      "manager": "Mark",
+      "gw": 3,
+      "date": "2026-08-21T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Semenyo → Sarr"
+    },
+    {
+      "entryId": 100001,
+      "manager": "Mark",
+      "gw": 1,
+      "date": "2026-08-25T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Salah → Saka"
+    },
+    {
+      "entryId": 100001,
+      "manager": "Mark",
+      "gw": 2,
+      "date": "2026-08-29T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Palmer → Foden"
+    },
+    {
+      "entryId": 100001,
+      "manager": "Mark",
+      "gw": 3,
+      "date": "2026-09-02T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Isak → Watkins"
+    },
+    {
+      "entryId": 100008,
+      "manager": "Andy",
+      "gw": 1,
+      "date": "2026-08-02T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Palmer → Foden"
+    },
+    {
+      "entryId": 100008,
+      "manager": "Andy",
+      "gw": 2,
+      "date": "2026-08-06T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Isak → Watkins"
+    },
+    {
+      "entryId": 100008,
+      "manager": "Andy",
+      "gw": 3,
+      "date": "2026-08-10T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Gordon → Mbeumo"
+    },
+    {
+      "entryId": 100008,
+      "manager": "Andy",
+      "gw": 1,
+      "date": "2026-08-14T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Wirtz → Rogers"
+    },
+    {
+      "entryId": 100008,
+      "manager": "Andy",
+      "gw": 2,
+      "date": "2026-08-18T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Semenyo → Sarr"
+    },
+    {
+      "entryId": 100008,
+      "manager": "Andy",
+      "gw": 3,
+      "date": "2026-08-22T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Salah → Saka"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 1,
+      "date": "2026-08-05T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Wirtz → Rogers"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 2,
+      "date": "2026-08-09T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Semenyo → Sarr"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 3,
+      "date": "2026-08-13T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Salah → Saka"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 1,
+      "date": "2026-08-17T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Palmer → Foden"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 2,
+      "date": "2026-08-21T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Isak → Watkins"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 3,
+      "date": "2026-08-25T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Gordon → Mbeumo"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 1,
+      "date": "2026-08-29T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Wirtz → Rogers"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 2,
+      "date": "2026-09-02T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Semenyo → Sarr"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 3,
+      "date": "2026-09-06T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Salah → Saka"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 1,
+      "date": "2026-09-10T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Palmer → Foden"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 2,
+      "date": "2026-09-14T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Isak → Watkins"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 1,
+      "date": "2026-08-06T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Semenyo → Sarr"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 2,
+      "date": "2026-08-10T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Salah → Saka"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 3,
+      "date": "2026-08-14T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Palmer → Foden"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 1,
+      "date": "2026-08-18T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Isak → Watkins"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 2,
+      "date": "2026-08-22T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Gordon → Mbeumo"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 3,
+      "date": "2026-08-26T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Wirtz → Rogers"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 1,
+      "date": "2026-08-30T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Semenyo → Sarr"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 2,
+      "date": "2026-09-03T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Salah → Saka"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 3,
+      "date": "2026-09-07T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Palmer → Foden"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 1,
+      "date": "2026-09-11T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Isak → Watkins"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 2,
+      "date": "2026-09-15T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Gordon → Mbeumo"
+    },
+    {
+      "entryId": 100009,
+      "manager": "Baz",
+      "gw": 3,
+      "date": "2026-09-19T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Wirtz → Rogers"
+    },
+    {
+      "entryId": 100004,
+      "manager": "Chris",
+      "gw": 1,
+      "date": "2026-08-07T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Salah → Saka"
+    },
+    {
+      "entryId": 100004,
+      "manager": "Chris",
+      "gw": 2,
+      "date": "2026-08-11T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Palmer → Foden"
+    },
+    {
+      "entryId": 100007,
+      "manager": "Si",
+      "gw": 1,
+      "date": "2026-08-08T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Palmer → Foden"
+    },
+    {
+      "entryId": 100007,
+      "manager": "Si",
+      "gw": 2,
+      "date": "2026-08-12T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Isak → Watkins"
+    },
+    {
+      "entryId": 100002,
+      "manager": "Dave",
+      "gw": 1,
+      "date": "2026-08-09T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Isak → Watkins"
+    },
+    {
+      "entryId": 100002,
+      "manager": "Dave",
+      "gw": 2,
+      "date": "2026-08-13T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Gordon → Mbeumo"
+    },
+    {
+      "entryId": 100002,
+      "manager": "Dave",
+      "gw": 3,
+      "date": "2026-08-17T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Wirtz → Rogers"
+    },
+    {
+      "entryId": 100002,
+      "manager": "Dave",
+      "gw": 1,
+      "date": "2026-08-21T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Semenyo → Sarr"
+    },
+    {
+      "entryId": 100002,
+      "manager": "Dave",
+      "gw": 2,
+      "date": "2026-08-25T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Salah → Saka"
+    },
+    {
+      "entryId": 100002,
+      "manager": "Dave",
+      "gw": 3,
+      "date": "2026-08-29T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Palmer → Foden"
+    },
+    {
+      "entryId": 100000,
+      "manager": "Rob",
+      "gw": 1,
+      "date": "2026-08-10T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Gordon → Mbeumo"
+    },
+    {
+      "entryId": 100000,
+      "manager": "Rob",
+      "gw": 2,
+      "date": "2026-08-14T00:00:00.000Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Wirtz → Rogers"
+    },
+    {
+      "entryId": 100001,
+      "manager": "Mark",
+      "gw": 2,
+      "date": "2026-08-15T00:00:00.000Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Salah for 2 pts"
+    },
+    {
+      "entryId": 100008,
+      "manager": "Andy",
+      "gw": 3,
+      "date": "2026-08-22T00:00:00.000Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Haaland for 1 pt"
+    },
+    {
+      "entryId": 100008,
+      "manager": "Andy",
+      "gw": 3,
+      "date": "2026-08-22T00:00:00.000Z",
+      "type": "HAALAND_VIOLATION",
+      "amount": 10,
+      "description": "Owned Erling Haaland"
+    },
+    {
+      "entryId": 100005,
+      "manager": "Tom",
+      "gw": 3,
+      "date": "2026-08-22T00:00:00.000Z",
+      "type": "TRIPLE_CAPTAIN_FINE",
+      "amount": 10,
+      "description": "Triple captained Isak for 5 pts"
+    },
+    {
+      "entryId": 100004,
+      "manager": "Chris",
+      "gw": 2,
+      "date": "2026-08-15T00:00:00.000Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Palmer for 3 pts"
+    }
+  ]
+}

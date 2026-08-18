@@ -1,0 +1,39 @@
+{
+  "leagueId": 455987,
+  "_comment_leagueId": "Your FPL classic league ID. Find it in the URL when viewing the league on the FPL site: /leagues/XXXXXX/standings/c",
+
+  "entryFee": 20,
+
+  "rules": {
+    "transferFee": 1,
+    "captainFineThreshold": 4,
+    "captainFineAmount": 4,
+    "tripleCaptainFineThreshold": 6,
+    "tripleCaptainFineAmount": 10,
+    "haalandFineAmount": 10,
+    "haalandFineMode": "per_spell",
+    "_comment_haalandFineMode": "'per_spell' = one fine each time he is bought. 'per_gameweek' = £10 for every GW he is owned (brutal).",
+    "chipsExemptFromTransferFee": ["wildcard", "freehit"],
+    "periodScoring": "net",
+    "_comment_periodScoring": "'net' = GW score after -4 hits (matches what FPL shows). 'gross' = adds hit deductions back on."
+  },
+
+  "periods": [
+    { "key": "aug_sep", "label": "August/September", "months": [8, 9] },
+    { "key": "oct_nov", "label": "October/November", "months": [10, 11] },
+    { "key": "dec_jan", "label": "December/January", "months": [12, 1] },
+    { "key": "feb_mar", "label": "February/March", "months": [2, 3] },
+    { "key": "apr_may", "label": "April/May", "months": [4, 5] }
+  ],
+
+  "manualAdjustments": [
+    {
+      "_example": true,
+      "entryId": 123456,
+      "type": "PRIZE_PAID",
+      "amount": -86,
+      "description": "Aug/Sep transfer pot paid out",
+      "date": "2026-10-01"
+    }
+  ]
+}

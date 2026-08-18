@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T18:29:01.571Z",
+  "generatedAt": "2026-08-18T20:30:12.094Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": null,
   "rules": {
@@ -20,6 +20,24 @@
   },
   "standings": [
     {
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "teamName": "Dream Team",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 5801945,
+      "name": "Tom Dodd",
+      "teamName": "Rubber Digne Rapids",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
       "entryId": 5590560,
       "name": "Ryan Gaunt",
       "teamName": "Ryans XI",
@@ -31,7 +49,7 @@
     {
       "entryId": 2742631,
       "name": "Lewis Hughes",
-      "teamName": "Change Name",
+      "teamName": "You Just Got Kaned",
       "totalPoints": 0,
       "leagueRank": null,
       "chargeableTransfers": 0,
@@ -98,8 +116,26 @@
     "paidOut": 0,
     "nextPeriod": "August/September"
   },
-  "mainPot": 140,
+  "mainPot": 180,
   "contributions": [
+    {
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    },
+    {
+      "entryId": 5801945,
+      "name": "Tom Dodd",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    },
     {
       "entryId": 5590560,
       "name": "Ryan Gaunt",
@@ -191,6 +227,16 @@
       "complete": false,
       "table": [
         {
+          "entryId": 5807891,
+          "name": "Luke Waddington",
+          "points": 0
+        },
+        {
+          "entryId": 5801945,
+          "name": "Tom Dodd",
+          "points": 0
+        },
+        {
           "entryId": 5590560,
           "name": "Ryan Gaunt",
           "points": 0
@@ -251,6 +297,16 @@
       ],
       "complete": false,
       "table": [
+        {
+          "entryId": 5807891,
+          "name": "Luke Waddington",
+          "points": 0
+        },
+        {
+          "entryId": 5801945,
+          "name": "Tom Dodd",
+          "points": 0
+        },
         {
           "entryId": 5590560,
           "name": "Ryan Gaunt",
@@ -317,6 +373,16 @@
       "complete": false,
       "table": [
         {
+          "entryId": 5807891,
+          "name": "Luke Waddington",
+          "points": 0
+        },
+        {
+          "entryId": 5801945,
+          "name": "Tom Dodd",
+          "points": 0
+        },
+        {
           "entryId": 5590560,
           "name": "Ryan Gaunt",
           "points": 0
@@ -377,6 +443,16 @@
       ],
       "complete": false,
       "table": [
+        {
+          "entryId": 5807891,
+          "name": "Luke Waddington",
+          "points": 0
+        },
+        {
+          "entryId": 5801945,
+          "name": "Tom Dodd",
+          "points": 0
+        },
         {
           "entryId": 5590560,
           "name": "Ryan Gaunt",
@@ -440,6 +516,16 @@
       "complete": false,
       "table": [
         {
+          "entryId": 5807891,
+          "name": "Luke Waddington",
+          "points": 0
+        },
+        {
+          "entryId": 5801945,
+          "name": "Tom Dodd",
+          "points": 0
+        },
+        {
           "entryId": 5590560,
           "name": "Ryan Gaunt",
           "points": 0
@@ -485,6 +571,26 @@
   ],
   "managers": [
     {
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "teamName": "Dream Team",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": []
+    },
+    {
+      "entryId": 5801945,
+      "name": "Tom Dodd",
+      "teamName": "Rubber Digne Rapids",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": []
+    },
+    {
       "entryId": 5590560,
       "name": "Ryan Gaunt",
       "teamName": "Ryans XI",
@@ -497,7 +603,7 @@
     {
       "entryId": 2742631,
       "name": "Lewis Hughes",
-      "teamName": "Change Name",
+      "teamName": "You Just Got Kaned",
       "totalPoints": 0,
       "leagueRank": null,
       "chargeableTransfers": 0,

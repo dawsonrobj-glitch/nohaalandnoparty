@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T18:18:29.034Z",
+  "generatedAt": "2026-08-18T18:29:01.571Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": null,
   "rules": {
@@ -18,15 +18,161 @@
     "periodScoring": "net",
     "_comment_periodScoring": "'net' = GW score after -4 hits (matches what FPL shows). 'gross' = adds hit deductions back on."
   },
-  "standings": [],
+  "standings": [
+    {
+      "entryId": 5590560,
+      "name": "Ryan Gaunt",
+      "teamName": "Ryans XI",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "teamName": "Change Name",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 4314776,
+      "name": "Tom Pick",
+      "teamName": "Wernham Hogg FC",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 511719,
+      "name": "Mark Austerberry",
+      "teamName": "Real Strugglers",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 4260880,
+      "name": "Russel Kaye",
+      "teamName": "King Kaye",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 1692757,
+      "name": "Jack Greatorex",
+      "teamName": "Jack's XI",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 2770502,
+      "name": "Kyle Mckay",
+      "teamName": "Beef Cherki",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 2324564,
+      "name": "Rob Dawson",
+      "teamName": "Squeeze My Iraolas",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    }
+  ],
   "transferPot": {
     "balance": 0,
     "paidIn": 0,
     "paidOut": 0,
     "nextPeriod": "August/September"
   },
-  "mainPot": 0,
-  "contributions": [],
+  "mainPot": 140,
+  "contributions": [
+    {
+      "entryId": 5590560,
+      "name": "Ryan Gaunt",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    },
+    {
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    },
+    {
+      "entryId": 4314776,
+      "name": "Tom Pick",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    },
+    {
+      "entryId": 511719,
+      "name": "Mark Austerberry",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    },
+    {
+      "entryId": 4260880,
+      "name": "Russel Kaye",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    },
+    {
+      "entryId": 1692757,
+      "name": "Jack Greatorex",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    },
+    {
+      "entryId": 2770502,
+      "name": "Kyle Mckay",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    },
+    {
+      "entryId": 2324564,
+      "name": "Rob Dawson",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
+    }
+  ],
   "periods": [
     {
       "key": "aug_sep",
@@ -43,7 +189,48 @@
         5
       ],
       "complete": false,
-      "table": [],
+      "table": [
+        {
+          "entryId": 5590560,
+          "name": "Ryan Gaunt",
+          "points": 0
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
+          "points": 0
+        },
+        {
+          "entryId": 4314776,
+          "name": "Tom Pick",
+          "points": 0
+        },
+        {
+          "entryId": 511719,
+          "name": "Mark Austerberry",
+          "points": 0
+        },
+        {
+          "entryId": 4260880,
+          "name": "Russel Kaye",
+          "points": 0
+        },
+        {
+          "entryId": 1692757,
+          "name": "Jack Greatorex",
+          "points": 0
+        },
+        {
+          "entryId": 2770502,
+          "name": "Kyle Mckay",
+          "points": 0
+        },
+        {
+          "entryId": 2324564,
+          "name": "Rob Dawson",
+          "points": 0
+        }
+      ],
       "winner": null
     },
     {
@@ -63,7 +250,48 @@
         12
       ],
       "complete": false,
-      "table": [],
+      "table": [
+        {
+          "entryId": 5590560,
+          "name": "Ryan Gaunt",
+          "points": 0
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
+          "points": 0
+        },
+        {
+          "entryId": 4314776,
+          "name": "Tom Pick",
+          "points": 0
+        },
+        {
+          "entryId": 511719,
+          "name": "Mark Austerberry",
+          "points": 0
+        },
+        {
+          "entryId": 4260880,
+          "name": "Russel Kaye",
+          "points": 0
+        },
+        {
+          "entryId": 1692757,
+          "name": "Jack Greatorex",
+          "points": 0
+        },
+        {
+          "entryId": 2770502,
+          "name": "Kyle Mckay",
+          "points": 0
+        },
+        {
+          "entryId": 2324564,
+          "name": "Rob Dawson",
+          "points": 0
+        }
+      ],
       "winner": null
     },
     {
@@ -87,7 +315,48 @@
         23
       ],
       "complete": false,
-      "table": [],
+      "table": [
+        {
+          "entryId": 5590560,
+          "name": "Ryan Gaunt",
+          "points": 0
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
+          "points": 0
+        },
+        {
+          "entryId": 4314776,
+          "name": "Tom Pick",
+          "points": 0
+        },
+        {
+          "entryId": 511719,
+          "name": "Mark Austerberry",
+          "points": 0
+        },
+        {
+          "entryId": 4260880,
+          "name": "Russel Kaye",
+          "points": 0
+        },
+        {
+          "entryId": 1692757,
+          "name": "Jack Greatorex",
+          "points": 0
+        },
+        {
+          "entryId": 2770502,
+          "name": "Kyle Mckay",
+          "points": 0
+        },
+        {
+          "entryId": 2324564,
+          "name": "Rob Dawson",
+          "points": 0
+        }
+      ],
       "winner": null
     },
     {
@@ -107,7 +376,48 @@
         30
       ],
       "complete": false,
-      "table": [],
+      "table": [
+        {
+          "entryId": 5590560,
+          "name": "Ryan Gaunt",
+          "points": 0
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
+          "points": 0
+        },
+        {
+          "entryId": 4314776,
+          "name": "Tom Pick",
+          "points": 0
+        },
+        {
+          "entryId": 511719,
+          "name": "Mark Austerberry",
+          "points": 0
+        },
+        {
+          "entryId": 4260880,
+          "name": "Russel Kaye",
+          "points": 0
+        },
+        {
+          "entryId": 1692757,
+          "name": "Jack Greatorex",
+          "points": 0
+        },
+        {
+          "entryId": 2770502,
+          "name": "Kyle Mckay",
+          "points": 0
+        },
+        {
+          "entryId": 2324564,
+          "name": "Rob Dawson",
+          "points": 0
+        }
+      ],
       "winner": null
     },
     {
@@ -128,10 +438,132 @@
         38
       ],
       "complete": false,
-      "table": [],
+      "table": [
+        {
+          "entryId": 5590560,
+          "name": "Ryan Gaunt",
+          "points": 0
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
+          "points": 0
+        },
+        {
+          "entryId": 4314776,
+          "name": "Tom Pick",
+          "points": 0
+        },
+        {
+          "entryId": 511719,
+          "name": "Mark Austerberry",
+          "points": 0
+        },
+        {
+          "entryId": 4260880,
+          "name": "Russel Kaye",
+          "points": 0
+        },
+        {
+          "entryId": 1692757,
+          "name": "Jack Greatorex",
+          "points": 0
+        },
+        {
+          "entryId": 2770502,
+          "name": "Kyle Mckay",
+          "points": 0
+        },
+        {
+          "entryId": 2324564,
+          "name": "Rob Dawson",
+          "points": 0
+        }
+      ],
       "winner": null
     }
   ],
-  "managers": [],
+  "managers": [
+    {
+      "entryId": 5590560,
+      "name": "Ryan Gaunt",
+      "teamName": "Ryans XI",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": []
+    },
+    {
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "teamName": "Change Name",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": []
+    },
+    {
+      "entryId": 4314776,
+      "name": "Tom Pick",
+      "teamName": "Wernham Hogg FC",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": []
+    },
+    {
+      "entryId": 511719,
+      "name": "Mark Austerberry",
+      "teamName": "Real Strugglers",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": []
+    },
+    {
+      "entryId": 4260880,
+      "name": "Russel Kaye",
+      "teamName": "King Kaye",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": []
+    },
+    {
+      "entryId": 1692757,
+      "name": "Jack Greatorex",
+      "teamName": "Jack's XI",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": []
+    },
+    {
+      "entryId": 2770502,
+      "name": "Kyle Mckay",
+      "teamName": "Beef Cherki",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": []
+    },
+    {
+      "entryId": 2324564,
+      "name": "Rob Dawson",
+      "teamName": "Squeeze My Iraolas",
+      "totalPoints": 0,
+      "leagueRank": null,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": []
+    }
+  ],
   "ledger": []
 }

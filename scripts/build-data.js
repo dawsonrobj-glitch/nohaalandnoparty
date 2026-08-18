@@ -89,13 +89,34 @@ async function main() {
   console.log(`Fetching league ${config.leagueId}...`);
   const league = await get(`/leagues-classic/${config.leagueId}/standings/`);
   const leagueName = league.league.name;
-  const managers = league.standings.results.map((r) => ({
-    entryId: r.entry,
-    name: r.player_name,
-    teamName: r.entry_name,
-    totalPoints: r.total,
-    leagueRank: r.rank,
-  }));
+
+  // Before GW1 the standings array is empty and everyone sits in `new_entries`.
+  // Late joiners can linger there mid-season too, so merge both and de-duplicate.
+  const seen = new Set();
+  const managers = [];
+
+  for (const r of league.standings.results) {
+    seen.add(r.entry);
+    managers.push({
+      entryId: r.entry,
+      name: r.player_name,
+      teamName: r.entry_name,
+      totalPoints: r.total,
+      leagueRank: r.rank,
+    });
+  }
+
+  for (const r of league.new_entries?.results ?? []) {
+    if (seen.has(r.entry)) continue;
+    seen.add(r.entry);
+    managers.push({
+      entryId: r.entry,
+      name: [r.player_first_name, r.player_last_name].filter(Boolean).join(' ').trim(),
+      teamName: r.entry_name,
+      totalPoints: 0,
+      leagueRank: null,
+    });
+  }
   console.log(`Found ${managers.length} managers.`);
 
   // ---- live player scores per gameweek

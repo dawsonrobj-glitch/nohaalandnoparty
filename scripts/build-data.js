@@ -302,6 +302,21 @@ async function main() {
     ledger: ledger.sort((a, b) => new Date(a.date) - new Date(b.date)),
   };
 
+  // The generatedAt timestamp changes on every run, which would make the file
+  // look different even when nothing happened. Compare everything else, and
+  // leave the file untouched if the league is genuinely unchanged — that keeps
+  // git quiet and stops Netlify rebuilding for no reason.
+  const { generatedAt, ...content } = output;
+  try {
+    const { generatedAt: _prev, ...prevContent } = JSON.parse(await fs.readFile(OUT_FILE, 'utf8'));
+    if (JSON.stringify(prevContent) === JSON.stringify(content)) {
+      console.log('Nothing has changed. Leaving data.json alone.');
+      return;
+    }
+  } catch {
+    /* no existing file, so write one */
+  }
+
   await fs.mkdir(path.dirname(OUT_FILE), { recursive: true });
   await fs.writeFile(OUT_FILE, JSON.stringify(output, null, 2));
   console.log(`\nWrote ${OUT_FILE}`);

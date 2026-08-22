@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T21:15:03.697Z",
+  "generatedAt": "2026-08-22T09:27:48.483Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 1,
   "rules": {
@@ -38,18 +38,18 @@
       "totalTransfers": 0
     },
     {
-      "entryId": 5801945,
-      "name": "Tom Dodd",
-      "teamName": "Rubber Digne Rapids",
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "teamName": "You Just Got Kaned",
       "totalPoints": 21,
       "leagueRank": 3,
       "chargeableTransfers": 0,
       "totalTransfers": 0
     },
     {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
-      "teamName": "You Just Got Kaned",
+      "entryId": 5801945,
+      "name": "Tom Dodd",
+      "teamName": "Rubber Digne Rapids",
       "totalPoints": 21,
       "leagueRank": 3,
       "chargeableTransfers": 0,
@@ -128,8 +128,8 @@
       "total": 0
     },
     {
-      "entryId": 5801945,
-      "name": "Tom Dodd",
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
       "transfers": 0,
       "transferFees": 0,
       "captainFines": 0,
@@ -137,8 +137,8 @@
       "total": 0
     },
     {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
+      "entryId": 5801945,
+      "name": "Tom Dodd",
       "transfers": 0,
       "transferFees": 0,
       "captainFines": 0,
@@ -211,47 +211,47 @@
         {
           "entryId": 4314776,
           "name": "Tom Pick",
-          "points": 0
+          "points": 35
         },
         {
           "entryId": 2324564,
           "name": "Rob Dawson",
-          "points": 0
-        },
-        {
-          "entryId": 5801945,
-          "name": "Tom Dodd",
-          "points": 0
+          "points": 27
         },
         {
           "entryId": 2742631,
           "name": "Lewis Hughes",
-          "points": 0
+          "points": 21
+        },
+        {
+          "entryId": 5801945,
+          "name": "Tom Dodd",
+          "points": 21
         },
         {
           "entryId": 1692757,
           "name": "Jack Greatorex",
-          "points": 0
+          "points": 20
         },
         {
           "entryId": 5807891,
           "name": "Luke Waddington",
-          "points": 0
+          "points": 20
         },
         {
           "entryId": 511719,
           "name": "Mark Austerberry",
-          "points": 0
+          "points": 15
         },
         {
           "entryId": 5590560,
           "name": "Ryan Gaunt",
-          "points": 0
+          "points": 11
         },
         {
           "entryId": 2770502,
           "name": "Kyle Mckay",
-          "points": 0
+          "points": 5
         }
       ],
       "winner": null
@@ -285,13 +285,13 @@
           "points": 0
         },
         {
-          "entryId": 5801945,
-          "name": "Tom Dodd",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5801945,
+          "name": "Tom Dodd",
           "points": 0
         },
         {
@@ -355,13 +355,13 @@
           "points": 0
         },
         {
-          "entryId": 5801945,
-          "name": "Tom Dodd",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5801945,
+          "name": "Tom Dodd",
           "points": 0
         },
         {
@@ -421,13 +421,13 @@
           "points": 0
         },
         {
-          "entryId": 5801945,
-          "name": "Tom Dodd",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5801945,
+          "name": "Tom Dodd",
           "points": 0
         },
         {
@@ -488,13 +488,13 @@
           "points": 0
         },
         {
-          "entryId": 5801945,
-          "name": "Tom Dodd",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5801945,
+          "name": "Tom Dodd",
           "points": 0
         },
         {
@@ -538,8 +538,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 35,
+          "rawPoints": 35,
           "hitCost": 0,
           "captain": "Calafiori",
           "captainPoints": 9,
@@ -560,33 +560,11 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 27,
+          "rawPoints": 27,
           "hitCost": 0,
           "captain": "Havertz",
           "captainPoints": 6,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        }
-      ]
-    },
-    {
-      "entryId": 5801945,
-      "name": "Tom Dodd",
-      "teamName": "Rubber Digne Rapids",
-      "totalPoints": 21,
-      "leagueRank": 3,
-      "chargeableTransfers": 0,
-      "totalTransfers": 0,
-      "gameweeks": [
-        {
-          "gw": 1,
-          "points": 0,
-          "rawPoints": 0,
-          "hitCost": 0,
-          "captain": "Mateta",
-          "captainPoints": 0,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -604,10 +582,32 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 21,
+          "rawPoints": 21,
           "hitCost": 0,
           "captain": "B.Fernandes",
+          "captainPoints": 0,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        }
+      ]
+    },
+    {
+      "entryId": 5801945,
+      "name": "Tom Dodd",
+      "teamName": "Rubber Digne Rapids",
+      "totalPoints": 21,
+      "leagueRank": 3,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0,
+      "gameweeks": [
+        {
+          "gw": 1,
+          "points": 21,
+          "rawPoints": 21,
+          "hitCost": 0,
+          "captain": "Mateta",
           "captainPoints": 0,
           "tripleCaptain": false,
           "captainFine": 0,
@@ -626,8 +626,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 20,
+          "rawPoints": 20,
           "hitCost": 0,
           "captain": "Gyökeres",
           "captainPoints": 0,
@@ -648,8 +648,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 20,
+          "rawPoints": 20,
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 0,
@@ -670,8 +670,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 15,
+          "rawPoints": 15,
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 0,
@@ -692,8 +692,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 11,
+          "rawPoints": 11,
           "hitCost": 0,
           "captain": "Mbeumo",
           "captainPoints": 0,
@@ -714,8 +714,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 5,
+          "rawPoints": 5,
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 0,

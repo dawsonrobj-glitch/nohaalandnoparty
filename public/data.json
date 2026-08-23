@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T20:24:43.030Z",
+  "generatedAt": "2026-08-23T09:29:35.464Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 1,
   "rules": {
@@ -56,18 +56,18 @@
       "totalTransfers": 0
     },
     {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
-      "teamName": "Dream Team",
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "teamName": "You Just Got Kaned",
       "totalPoints": 29,
       "leagueRank": 5,
       "chargeableTransfers": 0,
       "totalTransfers": 0
     },
     {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
-      "teamName": "You Just Got Kaned",
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "teamName": "Dream Team",
       "totalPoints": 29,
       "leagueRank": 5,
       "chargeableTransfers": 0,
@@ -146,8 +146,8 @@
       "total": 0
     },
     {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
       "transfers": 0,
       "transferFees": 0,
       "captainFines": 0,
@@ -155,8 +155,8 @@
       "total": 0
     },
     {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
+      "entryId": 5807891,
+      "name": "Luke Waddington",
       "transfers": 0,
       "transferFees": 0,
       "captainFines": 0,
@@ -229,13 +229,13 @@
           "points": 32
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 29
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 29
         },
         {
@@ -295,13 +295,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -365,13 +365,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -431,13 +431,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -498,13 +498,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -616,9 +616,9 @@
       ]
     },
     {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
-      "teamName": "Dream Team",
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "teamName": "You Just Got Kaned",
       "totalPoints": 29,
       "leagueRank": 5,
       "chargeableTransfers": 0,
@@ -638,9 +638,9 @@
       ]
     },
     {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
-      "teamName": "You Just Got Kaned",
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "teamName": "Dream Team",
       "totalPoints": 29,
       "leagueRank": 5,
       "chargeableTransfers": 0,

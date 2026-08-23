@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T09:29:35.464Z",
+  "generatedAt": "2026-08-23T13:33:09.704Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 1,
   "rules": {
@@ -23,7 +23,7 @@
       "entryId": 4314776,
       "name": "Tom Pick",
       "teamName": "Wernham Hogg FC",
-      "totalPoints": 49,
+      "totalPoints": 50,
       "leagueRank": 1,
       "chargeableTransfers": 0,
       "totalTransfers": 0
@@ -32,7 +32,7 @@
       "entryId": 2324564,
       "name": "Rob Dawson",
       "teamName": "Squeeze My Iraolas",
-      "totalPoints": 46,
+      "totalPoints": 47,
       "leagueRank": 2,
       "chargeableTransfers": 0,
       "totalTransfers": 0
@@ -41,7 +41,7 @@
       "entryId": 5801945,
       "name": "Tom Dodd",
       "teamName": "Rubber Digne Rapids",
-      "totalPoints": 40,
+      "totalPoints": 41,
       "leagueRank": 3,
       "chargeableTransfers": 0,
       "totalTransfers": 0
@@ -50,8 +50,17 @@
       "entryId": 1692757,
       "name": "Jack Greatorex",
       "teamName": "Jack's XI",
-      "totalPoints": 32,
+      "totalPoints": 34,
       "leagueRank": 4,
+      "chargeableTransfers": 0,
+      "totalTransfers": 0
+    },
+    {
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "teamName": "Dream Team",
+      "totalPoints": 31,
+      "leagueRank": 5,
       "chargeableTransfers": 0,
       "totalTransfers": 0
     },
@@ -60,16 +69,7 @@
       "name": "Lewis Hughes",
       "teamName": "You Just Got Kaned",
       "totalPoints": 29,
-      "leagueRank": 5,
-      "chargeableTransfers": 0,
-      "totalTransfers": 0
-    },
-    {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
-      "teamName": "Dream Team",
-      "totalPoints": 29,
-      "leagueRank": 5,
+      "leagueRank": 6,
       "chargeableTransfers": 0,
       "totalTransfers": 0
     },
@@ -77,7 +77,7 @@
       "entryId": 511719,
       "name": "Mark Austerberry",
       "teamName": "Real Strugglers",
-      "totalPoints": 22,
+      "totalPoints": 24,
       "leagueRank": 7,
       "chargeableTransfers": 0,
       "totalTransfers": 0
@@ -86,7 +86,7 @@
       "entryId": 5590560,
       "name": "Ryan Gaunt",
       "teamName": "Ryans XI",
-      "totalPoints": 19,
+      "totalPoints": 20,
       "leagueRank": 8,
       "chargeableTransfers": 0,
       "totalTransfers": 0
@@ -146,8 +146,8 @@
       "total": 0
     },
     {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
+      "entryId": 5807891,
+      "name": "Luke Waddington",
       "transfers": 0,
       "transferFees": 0,
       "captainFines": 0,
@@ -155,8 +155,8 @@
       "total": 0
     },
     {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
       "transfers": 0,
       "transferFees": 0,
       "captainFines": 0,
@@ -229,13 +229,13 @@
           "points": 32
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 29
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 29
         },
         {
@@ -295,13 +295,13 @@
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
@@ -365,13 +365,13 @@
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
@@ -431,13 +431,13 @@
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
@@ -498,13 +498,13 @@
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
@@ -531,7 +531,7 @@
       "entryId": 4314776,
       "name": "Tom Pick",
       "teamName": "Wernham Hogg FC",
-      "totalPoints": 49,
+      "totalPoints": 50,
       "leagueRank": 1,
       "chargeableTransfers": 0,
       "totalTransfers": 0,
@@ -553,7 +553,7 @@
       "entryId": 2324564,
       "name": "Rob Dawson",
       "teamName": "Squeeze My Iraolas",
-      "totalPoints": 46,
+      "totalPoints": 47,
       "leagueRank": 2,
       "chargeableTransfers": 0,
       "totalTransfers": 0,
@@ -575,7 +575,7 @@
       "entryId": 5801945,
       "name": "Tom Dodd",
       "teamName": "Rubber Digne Rapids",
-      "totalPoints": 40,
+      "totalPoints": 41,
       "leagueRank": 3,
       "chargeableTransfers": 0,
       "totalTransfers": 0,
@@ -597,7 +597,7 @@
       "entryId": 1692757,
       "name": "Jack Greatorex",
       "teamName": "Jack's XI",
-      "totalPoints": 32,
+      "totalPoints": 34,
       "leagueRank": 4,
       "chargeableTransfers": 0,
       "totalTransfers": 0,
@@ -616,10 +616,10 @@
       ]
     },
     {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
-      "teamName": "You Just Got Kaned",
-      "totalPoints": 29,
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "teamName": "Dream Team",
+      "totalPoints": 31,
       "leagueRank": 5,
       "chargeableTransfers": 0,
       "totalTransfers": 0,
@@ -638,11 +638,11 @@
       ]
     },
     {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
-      "teamName": "Dream Team",
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "teamName": "You Just Got Kaned",
       "totalPoints": 29,
-      "leagueRank": 5,
+      "leagueRank": 6,
       "chargeableTransfers": 0,
       "totalTransfers": 0,
       "gameweeks": [
@@ -663,7 +663,7 @@
       "entryId": 511719,
       "name": "Mark Austerberry",
       "teamName": "Real Strugglers",
-      "totalPoints": 22,
+      "totalPoints": 24,
       "leagueRank": 7,
       "chargeableTransfers": 0,
       "totalTransfers": 0,
@@ -685,7 +685,7 @@
       "entryId": 5590560,
       "name": "Ryan Gaunt",
       "teamName": "Ryans XI",
-      "totalPoints": 19,
+      "totalPoints": 20,
       "leagueRank": 8,
       "chargeableTransfers": 0,
       "totalTransfers": 0,

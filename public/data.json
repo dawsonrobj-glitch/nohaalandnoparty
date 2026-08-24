@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:19:16.196Z",
+  "generatedAt": "2026-08-24T11:22:19.802Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 1,
   "rules": {
@@ -211,42 +211,42 @@
         {
           "entryId": 4314776,
           "name": "Tom Pick",
-          "points": 49
+          "points": 53
         },
         {
           "entryId": 2324564,
           "name": "Rob Dawson",
+          "points": 52
+        },
+        {
+          "entryId": 1692757,
+          "name": "Jack Greatorex",
           "points": 46
         },
         {
           "entryId": 5801945,
           "name": "Tom Dodd",
-          "points": 40
-        },
-        {
-          "entryId": 1692757,
-          "name": "Jack Greatorex",
-          "points": 32
+          "points": 44
         },
         {
           "entryId": 5807891,
           "name": "Luke Waddington",
-          "points": 29
-        },
-        {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
-          "points": 29
+          "points": 39
         },
         {
           "entryId": 511719,
           "name": "Mark Austerberry",
-          "points": 22
+          "points": 38
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
+          "points": 35
         },
         {
           "entryId": 5590560,
           "name": "Ryan Gaunt",
-          "points": 19
+          "points": 31
         },
         {
           "entryId": 2770502,
@@ -538,8 +538,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 49,
-          "rawPoints": 49,
+          "points": 53,
+          "rawPoints": 53,
           "hitCost": 0,
           "captain": "Calafiori",
           "captainPoints": 9,
@@ -560,8 +560,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 46,
-          "rawPoints": 46,
+          "points": 52,
+          "rawPoints": 52,
           "hitCost": 0,
           "captain": "Havertz",
           "captainPoints": 6,
@@ -582,8 +582,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 32,
-          "rawPoints": 32,
+          "points": 46,
+          "rawPoints": 46,
           "hitCost": 0,
           "captain": "Gyökeres",
           "captainPoints": 0,
@@ -604,8 +604,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 40,
-          "rawPoints": 40,
+          "points": 44,
+          "rawPoints": 44,
           "hitCost": 0,
           "captain": "Mateta",
           "captainPoints": 2,
@@ -626,8 +626,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 29,
-          "rawPoints": 29,
+          "points": 39,
+          "rawPoints": 39,
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 2,
@@ -648,8 +648,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 22,
-          "rawPoints": 22,
+          "points": 38,
+          "rawPoints": 38,
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 2,
@@ -670,8 +670,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 29,
-          "rawPoints": 29,
+          "points": 35,
+          "rawPoints": 35,
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 2,
@@ -692,8 +692,8 @@
       "gameweeks": [
         {
           "gw": 1,
-          "points": 19,
-          "rawPoints": 19,
+          "points": 31,
+          "rawPoints": 31,
           "hitCost": 0,
           "captain": "Mbeumo",
           "captainPoints": 2,

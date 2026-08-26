@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T11:22:27.686Z",
+  "generatedAt": "2026-08-26T11:24:17.093Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 1,
   "rules": {
@@ -102,13 +102,67 @@
     }
   ],
   "transferPot": {
-    "balance": 0,
-    "paidIn": 0,
+    "balance": 24,
+    "paidIn": 24,
     "paidOut": 0,
     "nextPeriod": "August/September"
   },
   "mainPot": 160,
   "contributions": [
+    {
+      "entryId": 5801945,
+      "name": "Tom Dodd",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 4,
+      "haalandFines": 0,
+      "total": 4
+    },
+    {
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 4,
+      "haalandFines": 0,
+      "total": 4
+    },
+    {
+      "entryId": 511719,
+      "name": "Mark Austerberry",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 4,
+      "haalandFines": 0,
+      "total": 4
+    },
+    {
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 4,
+      "haalandFines": 0,
+      "total": 4
+    },
+    {
+      "entryId": 5590560,
+      "name": "Ryan Gaunt",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 4,
+      "haalandFines": 0,
+      "total": 4
+    },
+    {
+      "entryId": 2770502,
+      "name": "Kyle Mckay",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 4,
+      "haalandFines": 0,
+      "total": 4
+    },
     {
       "entryId": 4314776,
       "name": "Tom Pick",
@@ -128,62 +182,8 @@
       "total": 0
     },
     {
-      "entryId": 5801945,
-      "name": "Tom Dodd",
-      "transfers": 0,
-      "transferFees": 0,
-      "captainFines": 0,
-      "haalandFines": 0,
-      "total": 0
-    },
-    {
       "entryId": 2324564,
       "name": "Rob Dawson",
-      "transfers": 0,
-      "transferFees": 0,
-      "captainFines": 0,
-      "haalandFines": 0,
-      "total": 0
-    },
-    {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
-      "transfers": 0,
-      "transferFees": 0,
-      "captainFines": 0,
-      "haalandFines": 0,
-      "total": 0
-    },
-    {
-      "entryId": 511719,
-      "name": "Mark Austerberry",
-      "transfers": 0,
-      "transferFees": 0,
-      "captainFines": 0,
-      "haalandFines": 0,
-      "total": 0
-    },
-    {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
-      "transfers": 0,
-      "transferFees": 0,
-      "captainFines": 0,
-      "haalandFines": 0,
-      "total": 0
-    },
-    {
-      "entryId": 5590560,
-      "name": "Ryan Gaunt",
-      "transfers": 0,
-      "transferFees": 0,
-      "captainFines": 0,
-      "haalandFines": 0,
-      "total": 0
-    },
-    {
-      "entryId": 2770502,
-      "name": "Kyle Mckay",
       "transfers": 0,
       "transferFees": 0,
       "captainFines": 0,
@@ -588,7 +588,7 @@
           "captain": "Mateta",
           "captainPoints": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -632,7 +632,7 @@
           "captain": "B.Fernandes",
           "captainPoints": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -654,7 +654,7 @@
           "captain": "B.Fernandes",
           "captainPoints": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -676,7 +676,7 @@
           "captain": "B.Fernandes",
           "captainPoints": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -698,7 +698,7 @@
           "captain": "Mbeumo",
           "captainPoints": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -720,11 +720,66 @@
           "captain": "B.Fernandes",
           "captainPoints": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
     }
   ],
-  "ledger": []
+  "ledger": [
+    {
+      "entryId": 5801945,
+      "manager": "Tom Dodd",
+      "gw": 1,
+      "date": "2026-08-21T17:30:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Mateta for 2 pts"
+    },
+    {
+      "entryId": 5807891,
+      "manager": "Luke Waddington",
+      "gw": 1,
+      "date": "2026-08-21T17:30:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained B.Fernandes for 2 pts"
+    },
+    {
+      "entryId": 511719,
+      "manager": "Mark Austerberry",
+      "gw": 1,
+      "date": "2026-08-21T17:30:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained B.Fernandes for 2 pts"
+    },
+    {
+      "entryId": 2742631,
+      "manager": "Lewis Hughes",
+      "gw": 1,
+      "date": "2026-08-21T17:30:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained B.Fernandes for 2 pts"
+    },
+    {
+      "entryId": 5590560,
+      "manager": "Ryan Gaunt",
+      "gw": 1,
+      "date": "2026-08-21T17:30:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Mbeumo for 2 pts"
+    },
+    {
+      "entryId": 2770502,
+      "manager": "Kyle Mckay",
+      "gw": 1,
+      "date": "2026-08-21T17:30:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained B.Fernandes for 2 pts"
+    }
+  ]
 }

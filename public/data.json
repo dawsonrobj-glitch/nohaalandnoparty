@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T16:15:07.861Z",
+  "generatedAt": "2026-09-08T14:51:25.698Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 3,
   "rules": {
@@ -38,18 +38,18 @@
       "totalTransfers": 12
     },
     {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
-      "teamName": "Dream Team",
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "teamName": "You Just Got Kaned",
       "totalPoints": 199,
       "leagueRank": 3,
       "chargeableTransfers": 2,
       "totalTransfers": 2
     },
     {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
-      "teamName": "You Just Got Kaned",
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "teamName": "Dream Team",
       "totalPoints": 199,
       "leagueRank": 3,
       "chargeableTransfers": 2,
@@ -224,13 +224,13 @@
           "points": 201
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 199
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 199
         },
         {
@@ -285,13 +285,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -355,13 +355,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -421,13 +421,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -488,13 +488,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -616,50 +616,6 @@
       ]
     },
     {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
-      "teamName": "Dream Team",
-      "totalPoints": 199,
-      "leagueRank": 3,
-      "chargeableTransfers": 2,
-      "totalTransfers": 2,
-      "gameweeks": [
-        {
-          "gw": 1,
-          "points": 50,
-          "rawPoints": 50,
-          "hitCost": 0,
-          "captain": "B.Fernandes",
-          "captainPoints": 2,
-          "tripleCaptain": false,
-          "captainFine": 4,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 2,
-          "points": 104,
-          "rawPoints": 104,
-          "hitCost": 0,
-          "captain": "B.Fernandes",
-          "captainPoints": 23,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 3,
-          "points": 45,
-          "rawPoints": 45,
-          "hitCost": 0,
-          "captain": "Semenyo",
-          "captainPoints": 6,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        }
-      ]
-    },
-    {
       "entryId": 2742631,
       "name": "Lewis Hughes",
       "teamName": "You Just Got Kaned",
@@ -699,6 +655,50 @@
           "captainPoints": 3,
           "tripleCaptain": false,
           "captainFine": 4,
+          "ownsHaaland": false
+        }
+      ]
+    },
+    {
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "teamName": "Dream Team",
+      "totalPoints": 199,
+      "leagueRank": 3,
+      "chargeableTransfers": 2,
+      "totalTransfers": 2,
+      "gameweeks": [
+        {
+          "gw": 1,
+          "points": 50,
+          "rawPoints": 50,
+          "hitCost": 0,
+          "captain": "B.Fernandes",
+          "captainPoints": 2,
+          "tripleCaptain": false,
+          "captainFine": 4,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 2,
+          "points": 104,
+          "rawPoints": 104,
+          "hitCost": 0,
+          "captain": "B.Fernandes",
+          "captainPoints": 23,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 3,
+          "points": 45,
+          "rawPoints": 45,
+          "hitCost": 0,
+          "captain": "Semenyo",
+          "captainPoints": 6,
+          "tripleCaptain": false,
+          "captainFine": 0,
           "ownsHaaland": false
         }
       ]
@@ -935,8 +935,8 @@
       "description": "Captained Mateta for 2 pts"
     },
     {
-      "entryId": 5807891,
-      "manager": "Luke Waddington",
+      "entryId": 2742631,
+      "manager": "Lewis Hughes",
       "gw": 1,
       "date": "2026-08-21T17:30:00Z",
       "type": "CAPTAIN_FINE",
@@ -944,8 +944,8 @@
       "description": "Captained B.Fernandes for 2 pts"
     },
     {
-      "entryId": 2742631,
-      "manager": "Lewis Hughes",
+      "entryId": 5807891,
+      "manager": "Luke Waddington",
       "gw": 1,
       "date": "2026-08-21T17:30:00Z",
       "type": "CAPTAIN_FINE",

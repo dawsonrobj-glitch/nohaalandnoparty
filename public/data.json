@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T14:51:25.698Z",
+  "generatedAt": "2026-09-09T09:26:10.449Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 3,
   "rules": {
@@ -102,8 +102,8 @@
     }
   ],
   "transferPot": {
-    "balance": 73,
-    "paidIn": 73,
+    "balance": 53,
+    "paidIn": 53,
     "paidOut": 0,
     "nextPeriod": "August/September"
   },
@@ -114,27 +114,9 @@
       "name": "Kyle Mckay",
       "transfers": 7,
       "transferFees": 7,
-      "captainFines": 8,
+      "captainFines": 4,
       "haalandFines": 0,
-      "total": 15
-    },
-    {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
-      "transfers": 2,
-      "transferFees": 2,
-      "captainFines": 8,
-      "haalandFines": 0,
-      "total": 10
-    },
-    {
-      "entryId": 511719,
-      "name": "Mark Austerberry",
-      "transfers": 2,
-      "transferFees": 2,
-      "captainFines": 8,
-      "haalandFines": 0,
-      "total": 10
+      "total": 11
     },
     {
       "entryId": 5801945,
@@ -155,13 +137,13 @@
       "total": 9
     },
     {
-      "entryId": 2324564,
-      "name": "Rob Dawson",
-      "transfers": 3,
-      "transferFees": 3,
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "transfers": 2,
+      "transferFees": 2,
       "captainFines": 4,
       "haalandFines": 0,
-      "total": 7
+      "total": 6
     },
     {
       "entryId": 5807891,
@@ -173,13 +155,13 @@
       "total": 6
     },
     {
-      "entryId": 4314776,
-      "name": "Tom Pick",
-      "transfers": 0,
-      "transferFees": 0,
+      "entryId": 511719,
+      "name": "Mark Austerberry",
+      "transfers": 2,
+      "transferFees": 2,
       "captainFines": 4,
       "haalandFines": 0,
-      "total": 4
+      "total": 6
     },
     {
       "entryId": 1692757,
@@ -189,6 +171,24 @@
       "captainFines": 0,
       "haalandFines": 0,
       "total": 3
+    },
+    {
+      "entryId": 2324564,
+      "name": "Rob Dawson",
+      "transfers": 3,
+      "transferFees": 3,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 3
+    },
+    {
+      "entryId": 4314776,
+      "name": "Tom Pick",
+      "transfers": 0,
+      "transferFees": 0,
+      "captainFines": 0,
+      "haalandFines": 0,
+      "total": 0
     }
   ],
   "periods": [
@@ -543,6 +543,8 @@
           "hitCost": 0,
           "captain": "Mateta",
           "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 4,
           "ownsHaaland": false
@@ -554,6 +556,8 @@
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 23,
+          "captainTotal": 46,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -565,6 +569,8 @@
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 4,
           "ownsHaaland": false
@@ -587,6 +593,8 @@
           "hitCost": 0,
           "captain": "Calafiori",
           "captainPoints": 9,
+          "captainTotal": 18,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -598,6 +606,8 @@
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 23,
+          "captainTotal": 46,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -609,8 +619,10 @@
           "hitCost": 0,
           "captain": "Cherki",
           "captainPoints": 3,
+          "captainTotal": 6,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 4,
+          "captainFine": 0,
           "ownsHaaland": false
         }
       ]
@@ -631,6 +643,8 @@
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 4,
           "ownsHaaland": false
@@ -642,6 +656,8 @@
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 23,
+          "captainTotal": 46,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -653,8 +669,10 @@
           "hitCost": 0,
           "captain": "Cherki",
           "captainPoints": 3,
+          "captainTotal": 6,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 4,
+          "captainFine": 0,
           "ownsHaaland": false
         }
       ]
@@ -675,6 +693,8 @@
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 4,
           "ownsHaaland": false
@@ -686,6 +706,8 @@
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 23,
+          "captainTotal": 46,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -697,6 +719,8 @@
           "hitCost": 0,
           "captain": "Semenyo",
           "captainPoints": 6,
+          "captainTotal": 12,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -719,6 +743,8 @@
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 4,
           "ownsHaaland": false
@@ -730,6 +756,8 @@
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 23,
+          "captainTotal": 46,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -741,8 +769,10 @@
           "hitCost": 0,
           "captain": "Cherki",
           "captainPoints": 3,
+          "captainTotal": 6,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 4,
+          "captainFine": 0,
           "ownsHaaland": false
         }
       ]
@@ -763,6 +793,8 @@
           "hitCost": 0,
           "captain": "Kelleher",
           "captainPoints": 7,
+          "captainTotal": 14,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -774,6 +806,8 @@
           "hitCost": 8,
           "captain": "B.Fernandes",
           "captainPoints": 23,
+          "captainTotal": 46,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -785,6 +819,8 @@
           "hitCost": 0,
           "captain": "Semenyo",
           "captainPoints": 6,
+          "captainTotal": 12,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -807,6 +843,8 @@
           "hitCost": 0,
           "captain": "Mbeumo",
           "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 4,
           "ownsHaaland": false
@@ -818,6 +856,8 @@
           "hitCost": 8,
           "captain": "Isak",
           "captainPoints": 8,
+          "captainTotal": 16,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -829,6 +869,8 @@
           "hitCost": 4,
           "captain": "Isak",
           "captainPoints": 13,
+          "captainTotal": 26,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -851,6 +893,8 @@
           "hitCost": 0,
           "captain": "Havertz",
           "captainPoints": 6,
+          "captainTotal": 12,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -862,6 +906,8 @@
           "hitCost": 0,
           "captain": "Cunha",
           "captainPoints": 9,
+          "captainTotal": 18,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -873,8 +919,10 @@
           "hitCost": 4,
           "captain": "Cherki",
           "captainPoints": 3,
+          "captainTotal": 6,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 4,
+          "captainFine": 0,
           "ownsHaaland": false
         }
       ]
@@ -895,6 +943,8 @@
           "hitCost": 0,
           "captain": "B.Fernandes",
           "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 4,
           "ownsHaaland": false
@@ -906,6 +956,8 @@
           "hitCost": 4,
           "captain": "Cunha",
           "captainPoints": 9,
+          "captainTotal": 18,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
@@ -917,8 +969,10 @@
           "hitCost": 16,
           "captain": "Cherki",
           "captainPoints": 3,
+          "captainTotal": 6,
+          "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 4,
+          "captainFine": 0,
           "ownsHaaland": false
         }
       ]
@@ -932,7 +986,7 @@
       "date": "2026-08-21T17:30:00Z",
       "type": "CAPTAIN_FINE",
       "amount": 4,
-      "description": "Captained Mateta for 2 pts"
+      "description": "Captained Mateta for 4 pts"
     },
     {
       "entryId": 2742631,
@@ -941,7 +995,7 @@
       "date": "2026-08-21T17:30:00Z",
       "type": "CAPTAIN_FINE",
       "amount": 4,
-      "description": "Captained B.Fernandes for 2 pts"
+      "description": "Captained B.Fernandes for 4 pts"
     },
     {
       "entryId": 5807891,
@@ -950,7 +1004,7 @@
       "date": "2026-08-21T17:30:00Z",
       "type": "CAPTAIN_FINE",
       "amount": 4,
-      "description": "Captained B.Fernandes for 2 pts"
+      "description": "Captained B.Fernandes for 4 pts"
     },
     {
       "entryId": 511719,
@@ -959,7 +1013,7 @@
       "date": "2026-08-21T17:30:00Z",
       "type": "CAPTAIN_FINE",
       "amount": 4,
-      "description": "Captained B.Fernandes for 2 pts"
+      "description": "Captained B.Fernandes for 4 pts"
     },
     {
       "entryId": 5590560,
@@ -968,7 +1022,7 @@
       "date": "2026-08-21T17:30:00Z",
       "type": "CAPTAIN_FINE",
       "amount": 4,
-      "description": "Captained Mbeumo for 2 pts"
+      "description": "Captained Mbeumo for 4 pts"
     },
     {
       "entryId": 2770502,
@@ -977,7 +1031,7 @@
       "date": "2026-08-21T17:30:00Z",
       "type": "CAPTAIN_FINE",
       "amount": 4,
-      "description": "Captained B.Fernandes for 2 pts"
+      "description": "Captained B.Fernandes for 4 pts"
     },
     {
       "entryId": 2324564,
@@ -1211,52 +1265,7 @@
       "date": "2026-09-04T17:30:00Z",
       "type": "CAPTAIN_FINE",
       "amount": 4,
-      "description": "Captained B.Fernandes for 2 pts"
-    },
-    {
-      "entryId": 4314776,
-      "manager": "Tom Pick",
-      "gw": 3,
-      "date": "2026-09-04T17:30:00Z",
-      "type": "CAPTAIN_FINE",
-      "amount": 4,
-      "description": "Captained Cherki for 3 pts"
-    },
-    {
-      "entryId": 2742631,
-      "manager": "Lewis Hughes",
-      "gw": 3,
-      "date": "2026-09-04T17:30:00Z",
-      "type": "CAPTAIN_FINE",
-      "amount": 4,
-      "description": "Captained Cherki for 3 pts"
-    },
-    {
-      "entryId": 511719,
-      "manager": "Mark Austerberry",
-      "gw": 3,
-      "date": "2026-09-04T17:30:00Z",
-      "type": "CAPTAIN_FINE",
-      "amount": 4,
-      "description": "Captained Cherki for 3 pts"
-    },
-    {
-      "entryId": 2324564,
-      "manager": "Rob Dawson",
-      "gw": 3,
-      "date": "2026-09-04T17:30:00Z",
-      "type": "CAPTAIN_FINE",
-      "amount": 4,
-      "description": "Captained Cherki for 3 pts"
-    },
-    {
-      "entryId": 2770502,
-      "manager": "Kyle Mckay",
-      "gw": 3,
-      "date": "2026-09-04T17:30:00Z",
-      "type": "CAPTAIN_FINE",
-      "amount": 4,
-      "description": "Captained Cherki for 3 pts"
+      "description": "Captained B.Fernandes for 4 pts"
     }
   ]
 }

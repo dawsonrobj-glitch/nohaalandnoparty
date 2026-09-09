@@ -14,6 +14,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const BASE = 'https://fantasy.premierleague.com/api';
+const DRY_RUN = process.argv.includes('--dry-run');
 const ROOT = path.resolve(import.meta.dirname, '..');
 const CACHE_DIR = path.join(ROOT, '.cache');
 const OUT_FILE = path.join(ROOT, 'public', 'data.json');
@@ -183,11 +184,15 @@ async function main() {
       const isTC = tcGws.has(ev.id) || armband?.multiplier === 3;
       const pts = armband ? livePoints.get(ev.id)?.get(armband.element) : null;
 
+      // The fine is judged on what the armband actually returned, i.e. after
+      // doubling or tripling. Cherki scoring 3 is a 6-point return, so no fine.
+      const scored = armband && pts !== null && pts !== undefined ? pts * armband.multiplier : null;
+
       let fine = 0;
-      if (ev.finished && armband && pts !== null && pts !== undefined) {
+      if (ev.finished && armband && scored !== null) {
         const threshold = isTC ? rules.tripleCaptainFineThreshold : rules.captainFineThreshold;
         const amount = isTC ? rules.tripleCaptainFineAmount : rules.captainFineAmount;
-        if (pts <= threshold) {
+        if (scored <= threshold) {
           fine = amount;
           ledger.push({
             entryId: m.entryId,
@@ -196,7 +201,7 @@ async function main() {
             date: ev.deadline,
             type: isTC ? 'TRIPLE_CAPTAIN_FINE' : 'CAPTAIN_FINE',
             amount,
-            description: `${isTC ? 'Triple captained' : 'Captained'} ${playerName.get(armband.element)} for ${pts} pts`,
+            description: `${isTC ? 'Triple captained' : 'Captained'} ${playerName.get(armband.element)} for ${scored} pts`,
           });
         }
       }
@@ -227,6 +232,8 @@ async function main() {
         hitCost: hist?.event_transfers_cost ?? 0,
         captain: armband ? playerName.get(armband.element) : null,
         captainPoints: pts ?? null,
+        captainTotal: scored,
+        captainMultiplier: armband?.multiplier ?? null,
         tripleCaptain: isTC,
         captainFine: fine,
         ownsHaaland,
@@ -302,6 +309,12 @@ async function main() {
     ledger: ledger.sort((a, b) => new Date(a.date) - new Date(b.date)),
   };
 
+  if (DRY_RUN) {
+    report(output);
+    console.log('\nDRY RUN — nothing was written. The live site is untouched.');
+    return;
+  }
+
   // The generatedAt timestamp changes on every run, which would make the file
   // look different even when nothing happened. Compare everything else, and
   // leave the file untouched if the league is genuinely unchanged — that keeps
@@ -321,6 +334,59 @@ async function main() {
   await fs.writeFile(OUT_FILE, JSON.stringify(output, null, 2));
   console.log(`\nWrote ${OUT_FILE}`);
   console.log(`Transfer pot: £${output.transferPot.balance} | ${ledger.length} ledger entries`);
+}
+
+// ---------------------------------------------------------------- report
+
+function report(d) {
+  const pad = (s, n) => String(s).padEnd(n);
+  const rpad = (s, n) => String(s).padStart(n);
+  const rule = (t) => console.log(`\n${'='.repeat(64)}\n${t}\n${'='.repeat(64)}`);
+
+  rule(`${d.leagueName}  ·  ${d.currentGameweek ? 'after GW' + d.currentGameweek : 'pre-season'}`);
+
+  console.log('\nSTANDINGS');
+  console.log(pad('  #', 5) + pad('Manager', 24) + pad('Team', 24) + rpad('Points', 8));
+  d.standings.forEach((m, i) => {
+    console.log(pad('  ' + (i + 1), 5) + pad(m.name, 24) + pad(m.teamName, 24) + rpad(m.totalPoints, 8));
+  });
+
+  console.log('\nCAPTAIN BY GAMEWEEK');
+  for (const m of d.managers) {
+    const rows = m.gameweeks.filter((g) => g.captain);
+    if (!rows.length) continue;
+    console.log(`  ${m.name}`);
+    for (const g of rows) {
+      const flag = g.captainFine ? `  <-- FINE £${g.captainFine}` : '';
+      console.log(
+        `    GW${pad(g.gw, 4)}${pad(g.captain, 20)}${rpad(g.captainPoints ?? '?', 3)} \u00d7${g.captainMultiplier ?? '?'} = ${rpad(g.captainTotal ?? '?', 3)} pts` +
+        `${g.tripleCaptain ? '  [TC]' : ''}${g.ownsHaaland ? '  [HAALAND]' : ''}${flag}`,
+      );
+    }
+  }
+
+  console.log('\nMONEY');
+  console.log(pad('  Manager', 24) + rpad('Transfers', 11) + rpad('Fees', 8) + rpad('Captain', 9) + rpad('Haaland', 9) + rpad('Total', 8));
+  d.contributions.forEach((c) => {
+    console.log(
+      pad('  ' + c.name, 24) + rpad(c.transfers, 11) + rpad('£' + c.transferFees, 8) +
+      rpad('£' + c.captainFines, 9) + rpad('£' + c.haalandFines, 9) + rpad('£' + c.total, 8),
+    );
+  });
+
+  console.log('\nPERIODS');
+  d.periods.forEach((p) => {
+    const top = p.table[0];
+    const status = p.complete ? 'SETTLED' : 'in progress';
+    console.log(`  ${pad(p.label, 22)}GW${p.gameweeks[0]}-${p.gameweeks.at(-1)}  ${pad(status, 13)}` +
+      (top && top.points ? `leader: ${top.name} (${top.points})` : ''));
+  });
+
+  console.log(`\nLEDGER  ${d.ledger.length} entries  ·  pot £${d.transferPot.balance}`);
+  d.ledger.slice(-15).forEach((l) => {
+    console.log(`  ${pad(new Date(l.date).toISOString().slice(0, 10), 12)}${pad(l.manager, 20)}${pad(l.type, 22)}${rpad('£' + l.amount, 6)}  ${l.description}`);
+  });
+  if (d.ledger.length > 15) console.log(`  ...and ${d.ledger.length - 15} earlier entries`);
 }
 
 main().catch((err) => {

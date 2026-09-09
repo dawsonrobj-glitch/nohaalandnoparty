@@ -225,9 +225,12 @@ async function main() {
       ownedHaalandLastGw = ownsHaaland;
 
       const hist = history.current.find((h) => h.event === ev.id);
+      // FPL's history gives `points` gross, with the hit deduction held
+      // separately in `event_transfers_cost`. Net is what the league table and
+      // the FPL site both show, so it is the default.
       gwRows.push({
         gw: ev.id,
-        points: hist ? (rules.periodScoring === 'gross' ? hist.points + hist.event_transfers_cost : hist.points) : 0,
+        points: hist ? (rules.periodScoring === 'gross' ? hist.points : hist.points - hist.event_transfers_cost) : 0,
         rawPoints: hist?.points ?? 0,
         hitCost: hist?.event_transfers_cost ?? 0,
         captain: armband ? playerName.get(armband.element) : null,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T09:26:10.449Z",
+  "generatedAt": "2026-09-09T09:47:45.118Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 3,
   "rules": {
@@ -219,11 +219,6 @@
           "points": 215
         },
         {
-          "entryId": 1692757,
-          "name": "Jack Greatorex",
-          "points": 201
-        },
-        {
           "entryId": 2742631,
           "name": "Lewis Hughes",
           "points": 199
@@ -239,19 +234,24 @@
           "points": 196
         },
         {
+          "entryId": 1692757,
+          "name": "Jack Greatorex",
+          "points": 193
+        },
+        {
           "entryId": 5590560,
           "name": "Ryan Gaunt",
-          "points": 180
+          "points": 168
         },
         {
           "entryId": 2324564,
           "name": "Rob Dawson",
-          "points": 163
+          "points": 159
         },
         {
           "entryId": 2770502,
           "name": "Kyle Mckay",
-          "points": 141
+          "points": 121
         }
       ],
       "winner": null
@@ -801,7 +801,7 @@
         },
         {
           "gw": 2,
-          "points": 84,
+          "points": 76,
           "rawPoints": 84,
           "hitCost": 8,
           "captain": "B.Fernandes",
@@ -851,7 +851,7 @@
         },
         {
           "gw": 2,
-          "points": 84,
+          "points": 76,
           "rawPoints": 84,
           "hitCost": 8,
           "captain": "Isak",
@@ -864,7 +864,7 @@
         },
         {
           "gw": 3,
-          "points": 52,
+          "points": 48,
           "rawPoints": 52,
           "hitCost": 4,
           "captain": "Isak",
@@ -914,7 +914,7 @@
         },
         {
           "gw": 3,
-          "points": 40,
+          "points": 36,
           "rawPoints": 40,
           "hitCost": 4,
           "captain": "Cherki",
@@ -951,7 +951,7 @@
         },
         {
           "gw": 2,
-          "points": 66,
+          "points": 62,
           "rawPoints": 66,
           "hitCost": 4,
           "captain": "Cunha",
@@ -964,7 +964,7 @@
         },
         {
           "gw": 3,
-          "points": 37,
+          "points": 21,
           "rawPoints": 37,
           "hitCost": 16,
           "captain": "Cherki",

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T09:47:45.118Z",
+  "generatedAt": "2026-09-12T13:49:55.398Z",
   "leagueName": "No Haaland No Party",
-  "currentGameweek": 3,
+  "currentGameweek": 4,
   "rules": {
     "transferFee": 1,
     "captainFineThreshold": 4,
@@ -35,16 +35,7 @@
       "totalPoints": 215,
       "leagueRank": 2,
       "chargeableTransfers": 0,
-      "totalTransfers": 12
-    },
-    {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
-      "teamName": "You Just Got Kaned",
-      "totalPoints": 199,
-      "leagueRank": 3,
-      "chargeableTransfers": 2,
-      "totalTransfers": 2
+      "totalTransfers": 26
     },
     {
       "entryId": 5807891,
@@ -53,16 +44,25 @@
       "totalPoints": 199,
       "leagueRank": 3,
       "chargeableTransfers": 2,
-      "totalTransfers": 2
+      "totalTransfers": 12
     },
     {
       "entryId": 511719,
       "name": "Mark Austerberry",
       "teamName": "Real Strugglers",
       "totalPoints": 196,
-      "leagueRank": 5,
+      "leagueRank": 4,
       "chargeableTransfers": 2,
-      "totalTransfers": 2
+      "totalTransfers": 12
+    },
+    {
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "teamName": "You Just Got Kaned",
+      "totalPoints": 195,
+      "leagueRank": 5,
+      "chargeableTransfers": 4,
+      "totalTransfers": 4
     },
     {
       "entryId": 1692757,
@@ -79,8 +79,8 @@
       "teamName": "Ryans XI",
       "totalPoints": 168,
       "leagueRank": 7,
-      "chargeableTransfers": 5,
-      "totalTransfers": 5
+      "chargeableTransfers": 6,
+      "totalTransfers": 6
     },
     {
       "entryId": 2324564,
@@ -89,21 +89,21 @@
       "totalPoints": 159,
       "leagueRank": 8,
       "chargeableTransfers": 3,
-      "totalTransfers": 3
+      "totalTransfers": 15
     },
     {
       "entryId": 2770502,
       "name": "Kyle Mckay",
       "teamName": "Beef Cherki",
-      "totalPoints": 121,
+      "totalPoints": 105,
       "leagueRank": 9,
-      "chargeableTransfers": 7,
-      "totalTransfers": 7
+      "chargeableTransfers": 12,
+      "totalTransfers": 12
     }
   ],
   "transferPot": {
-    "balance": 53,
-    "paidIn": 53,
+    "balance": 61,
+    "paidIn": 61,
     "paidOut": 0,
     "nextPeriod": "August/September"
   },
@@ -112,11 +112,20 @@
     {
       "entryId": 2770502,
       "name": "Kyle Mckay",
-      "transfers": 7,
-      "transferFees": 7,
+      "transfers": 12,
+      "transferFees": 12,
       "captainFines": 4,
       "haalandFines": 0,
-      "total": 11
+      "total": 16
+    },
+    {
+      "entryId": 5590560,
+      "name": "Ryan Gaunt",
+      "transfers": 6,
+      "transferFees": 6,
+      "captainFines": 4,
+      "haalandFines": 0,
+      "total": 10
     },
     {
       "entryId": 5801945,
@@ -128,22 +137,13 @@
       "total": 9
     },
     {
-      "entryId": 5590560,
-      "name": "Ryan Gaunt",
-      "transfers": 5,
-      "transferFees": 5,
-      "captainFines": 4,
-      "haalandFines": 0,
-      "total": 9
-    },
-    {
       "entryId": 2742631,
       "name": "Lewis Hughes",
-      "transfers": 2,
-      "transferFees": 2,
+      "transfers": 4,
+      "transferFees": 4,
       "captainFines": 4,
       "haalandFines": 0,
-      "total": 6
+      "total": 8
     },
     {
       "entryId": 5807891,
@@ -219,11 +219,6 @@
           "points": 215
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
-          "points": 199
-        },
-        {
           "entryId": 5807891,
           "name": "Luke Waddington",
           "points": 199
@@ -232,6 +227,11 @@
           "entryId": 511719,
           "name": "Mark Austerberry",
           "points": 196
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
+          "points": 195
         },
         {
           "entryId": 1692757,
@@ -251,7 +251,7 @@
         {
           "entryId": 2770502,
           "name": "Kyle Mckay",
-          "points": 121
+          "points": 105
         }
       ],
       "winner": null
@@ -285,11 +285,6 @@
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
-          "points": 0
-        },
-        {
           "entryId": 5807891,
           "name": "Luke Waddington",
           "points": 0
@@ -297,6 +292,11 @@
         {
           "entryId": 511719,
           "name": "Mark Austerberry",
+          "points": 0
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
@@ -355,11 +355,6 @@
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
-          "points": 0
-        },
-        {
           "entryId": 5807891,
           "name": "Luke Waddington",
           "points": 0
@@ -367,6 +362,11 @@
         {
           "entryId": 511719,
           "name": "Mark Austerberry",
+          "points": 0
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
@@ -421,11 +421,6 @@
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
-          "points": 0
-        },
-        {
           "entryId": 5807891,
           "name": "Luke Waddington",
           "points": 0
@@ -433,6 +428,11 @@
         {
           "entryId": 511719,
           "name": "Mark Austerberry",
+          "points": 0
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
@@ -488,11 +488,6 @@
           "points": 0
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
-          "points": 0
-        },
-        {
           "entryId": 5807891,
           "name": "Luke Waddington",
           "points": 0
@@ -500,6 +495,11 @@
         {
           "entryId": 511719,
           "name": "Mark Austerberry",
+          "points": 0
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
           "points": 0
         },
         {
@@ -574,6 +574,19 @@
           "tripleCaptain": false,
           "captainFine": 4,
           "ownsHaaland": false
+        },
+        {
+          "gw": 4,
+          "points": 0,
+          "rawPoints": 0,
+          "hitCost": 0,
+          "captain": "B.Fernandes",
+          "captainPoints": 0,
+          "captainTotal": 0,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
         }
       ]
     },
@@ -584,7 +597,7 @@
       "totalPoints": 215,
       "leagueRank": 2,
       "chargeableTransfers": 0,
-      "totalTransfers": 12,
+      "totalTransfers": 26,
       "gameweeks": [
         {
           "gw": 1,
@@ -624,52 +637,15 @@
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
-        }
-      ]
-    },
-    {
-      "entryId": 2742631,
-      "name": "Lewis Hughes",
-      "teamName": "You Just Got Kaned",
-      "totalPoints": 199,
-      "leagueRank": 3,
-      "chargeableTransfers": 2,
-      "totalTransfers": 2,
-      "gameweeks": [
-        {
-          "gw": 1,
-          "points": 46,
-          "rawPoints": 46,
-          "hitCost": 0,
-          "captain": "B.Fernandes",
-          "captainPoints": 2,
-          "captainTotal": 4,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 4,
-          "ownsHaaland": false
         },
         {
-          "gw": 2,
-          "points": 103,
-          "rawPoints": 103,
+          "gw": 4,
+          "points": 0,
+          "rawPoints": 0,
           "hitCost": 0,
-          "captain": "B.Fernandes",
-          "captainPoints": 23,
-          "captainTotal": 46,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 3,
-          "points": 50,
-          "rawPoints": 50,
-          "hitCost": 0,
-          "captain": "Cherki",
-          "captainPoints": 3,
-          "captainTotal": 6,
+          "captain": "Palmer",
+          "captainPoints": 0,
+          "captainTotal": 0,
           "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
@@ -684,7 +660,7 @@
       "totalPoints": 199,
       "leagueRank": 3,
       "chargeableTransfers": 2,
-      "totalTransfers": 2,
+      "totalTransfers": 12,
       "gameweeks": [
         {
           "gw": 1,
@@ -724,6 +700,19 @@
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
+        },
+        {
+          "gw": 4,
+          "points": 0,
+          "rawPoints": 0,
+          "hitCost": 0,
+          "captain": "Palmer",
+          "captainPoints": 0,
+          "captainTotal": 0,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
         }
       ]
     },
@@ -732,9 +721,9 @@
       "name": "Mark Austerberry",
       "teamName": "Real Strugglers",
       "totalPoints": 196,
-      "leagueRank": 5,
+      "leagueRank": 4,
       "chargeableTransfers": 2,
-      "totalTransfers": 2,
+      "totalTransfers": 12,
       "gameweeks": [
         {
           "gw": 1,
@@ -770,6 +759,82 @@
           "captain": "Cherki",
           "captainPoints": 3,
           "captainTotal": 6,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 4,
+          "points": 0,
+          "rawPoints": 0,
+          "hitCost": 0,
+          "captain": "Palmer",
+          "captainPoints": 0,
+          "captainTotal": 0,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        }
+      ]
+    },
+    {
+      "entryId": 2742631,
+      "name": "Lewis Hughes",
+      "teamName": "You Just Got Kaned",
+      "totalPoints": 195,
+      "leagueRank": 5,
+      "chargeableTransfers": 4,
+      "totalTransfers": 4,
+      "gameweeks": [
+        {
+          "gw": 1,
+          "points": 46,
+          "rawPoints": 46,
+          "hitCost": 0,
+          "captain": "B.Fernandes",
+          "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 4,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 2,
+          "points": 103,
+          "rawPoints": 103,
+          "hitCost": 0,
+          "captain": "B.Fernandes",
+          "captainPoints": 23,
+          "captainTotal": 46,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 3,
+          "points": 50,
+          "rawPoints": 50,
+          "hitCost": 0,
+          "captain": "Cherki",
+          "captainPoints": 3,
+          "captainTotal": 6,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 4,
+          "points": -4,
+          "rawPoints": 0,
+          "hitCost": 4,
+          "captain": "Palmer",
+          "captainPoints": 0,
+          "captainTotal": 0,
           "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
@@ -824,6 +889,19 @@
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
+        },
+        {
+          "gw": 4,
+          "points": 0,
+          "rawPoints": 0,
+          "hitCost": 0,
+          "captain": "João Pedro",
+          "captainPoints": 0,
+          "captainTotal": 0,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
         }
       ]
     },
@@ -833,8 +911,8 @@
       "teamName": "Ryans XI",
       "totalPoints": 168,
       "leagueRank": 7,
-      "chargeableTransfers": 5,
-      "totalTransfers": 5,
+      "chargeableTransfers": 6,
+      "totalTransfers": 6,
       "gameweeks": [
         {
           "gw": 1,
@@ -874,6 +952,19 @@
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
+        },
+        {
+          "gw": 4,
+          "points": 0,
+          "rawPoints": 0,
+          "hitCost": 0,
+          "captain": "Isak",
+          "captainPoints": 0,
+          "captainTotal": 0,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
         }
       ]
     },
@@ -884,7 +975,7 @@
       "totalPoints": 159,
       "leagueRank": 8,
       "chargeableTransfers": 3,
-      "totalTransfers": 3,
+      "totalTransfers": 15,
       "gameweeks": [
         {
           "gw": 1,
@@ -924,6 +1015,19 @@
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
+        },
+        {
+          "gw": 4,
+          "points": 0,
+          "rawPoints": 0,
+          "hitCost": 0,
+          "captain": "Isak",
+          "captainPoints": 0,
+          "captainTotal": 0,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
         }
       ]
     },
@@ -931,10 +1035,10 @@
       "entryId": 2770502,
       "name": "Kyle Mckay",
       "teamName": "Beef Cherki",
-      "totalPoints": 121,
+      "totalPoints": 105,
       "leagueRank": 9,
-      "chargeableTransfers": 7,
-      "totalTransfers": 7,
+      "chargeableTransfers": 12,
+      "totalTransfers": 12,
       "gameweeks": [
         {
           "gw": 1,
@@ -974,6 +1078,19 @@
           "tripleCaptain": false,
           "captainFine": 0,
           "ownsHaaland": false
+        },
+        {
+          "gw": 4,
+          "points": -16,
+          "rawPoints": 0,
+          "hitCost": 16,
+          "captain": "Palmer",
+          "captainPoints": 0,
+          "captainTotal": 0,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
         }
       ]
     }
@@ -989,15 +1106,6 @@
       "description": "Captained Mateta for 4 pts"
     },
     {
-      "entryId": 2742631,
-      "manager": "Lewis Hughes",
-      "gw": 1,
-      "date": "2026-08-21T17:30:00Z",
-      "type": "CAPTAIN_FINE",
-      "amount": 4,
-      "description": "Captained B.Fernandes for 4 pts"
-    },
-    {
       "entryId": 5807891,
       "manager": "Luke Waddington",
       "gw": 1,
@@ -1009,6 +1117,15 @@
     {
       "entryId": 511719,
       "manager": "Mark Austerberry",
+      "gw": 1,
+      "date": "2026-08-21T17:30:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained B.Fernandes for 4 pts"
+    },
+    {
+      "entryId": 2742631,
+      "manager": "Lewis Hughes",
       "gw": 1,
       "date": "2026-08-21T17:30:00Z",
       "type": "CAPTAIN_FINE",
@@ -1266,6 +1383,78 @@
       "type": "CAPTAIN_FINE",
       "amount": 4,
       "description": "Captained B.Fernandes for 4 pts"
+    },
+    {
+      "entryId": 2770502,
+      "manager": "Kyle Mckay",
+      "gw": 4,
+      "date": "2026-09-06T14:23:21.120834Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Valdimarsson → Pickford"
+    },
+    {
+      "entryId": 2770502,
+      "manager": "Kyle Mckay",
+      "gw": 4,
+      "date": "2026-09-06T14:23:21.126947Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Havertz → Isak"
+    },
+    {
+      "entryId": 2770502,
+      "manager": "Kyle Mckay",
+      "gw": 4,
+      "date": "2026-09-06T14:23:21.126451Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Cherki → Palmer"
+    },
+    {
+      "entryId": 2770502,
+      "manager": "Kyle Mckay",
+      "gw": 4,
+      "date": "2026-09-06T14:23:21.127594Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Maddison → Bahoya"
+    },
+    {
+      "entryId": 2770502,
+      "manager": "Kyle Mckay",
+      "gw": 4,
+      "date": "2026-09-06T14:23:21.127294Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Cunha → Barnes"
+    },
+    {
+      "entryId": 5590560,
+      "manager": "Ryan Gaunt",
+      "gw": 4,
+      "date": "2026-09-09T08:16:47.646834Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "O'Reilly → De Cuyper"
+    },
+    {
+      "entryId": 2742631,
+      "manager": "Lewis Hughes",
+      "gw": 4,
+      "date": "2026-09-11T11:58:28.295263Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Wirtz → Palmer"
+    },
+    {
+      "entryId": 2742631,
+      "manager": "Lewis Hughes",
+      "gw": 4,
+      "date": "2026-09-11T11:58:28.304058Z",
+      "type": "TRANSFER",
+      "amount": 1,
+      "description": "Isak → Wissa"
     }
   ]
 }

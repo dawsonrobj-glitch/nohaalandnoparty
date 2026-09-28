@@ -28,12 +28,11 @@
 
   "manualAdjustments": [
     {
-      "_example": true,
-      "entryId": 123456,
+      "entryId": 5801945,
       "type": "PRIZE_PAID",
-      "amount": -86,
-      "description": "Aug/Sep transfer pot paid out",
-      "date": "2026-10-01"
+      "amount": -117,
+      "description": "August/September pot paid out",
+      "date": "2025-09-28"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T16:44:55.165Z",
+  "generatedAt": "2026-09-28T18:21:41.931Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 5,
   "rules": {
@@ -102,9 +102,9 @@
     }
   ],
   "transferPot": {
-    "balance": 117,
+    "balance": 0,
     "paidIn": 117,
-    "paidOut": 0,
+    "paidOut": 117,
     "nextPeriod": "October/November"
   },
   "mainPot": 160,
@@ -1217,6 +1217,15 @@
     }
   ],
   "ledger": [
+    {
+      "entryId": 5801945,
+      "manager": "Tom Dodd",
+      "gw": null,
+      "date": "2025-09-28",
+      "type": "PRIZE_PAID",
+      "amount": -117,
+      "description": "August/September pot paid out"
+    },
     {
       "entryId": 5801945,
       "manager": "Tom Dodd",

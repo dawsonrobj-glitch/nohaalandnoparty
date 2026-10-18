@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T14:01:06.702Z",
+  "generatedAt": "2026-10-18T14:14:22.907Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 7,
   "rules": {
@@ -23,34 +23,34 @@
       "entryId": 4314776,
       "name": "Tom Pick",
       "teamName": "Wernham Hogg FC",
-      "totalPoints": 415,
+      "totalPoints": 424,
       "leagueRank": 1,
       "chargeableTransfers": 4,
       "totalTransfers": 30
     },
     {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
-      "teamName": "Dream Team",
-      "totalPoints": 407,
-      "leagueRank": 2,
-      "chargeableTransfers": 6,
-      "totalTransfers": 16
-    },
-    {
       "entryId": 5801945,
       "name": "Tom Dodd",
       "teamName": "Rubber Digne Rapids",
-      "totalPoints": 406,
-      "leagueRank": 3,
+      "totalPoints": 417,
+      "leagueRank": 2,
       "chargeableTransfers": 1,
       "totalTransfers": 18
+    },
+    {
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "teamName": "Dream Team",
+      "totalPoints": 411,
+      "leagueRank": 3,
+      "chargeableTransfers": 6,
+      "totalTransfers": 16
     },
     {
       "entryId": 511719,
       "name": "Mark Austerberry",
       "teamName": "Real Strugglers",
-      "totalPoints": 389,
+      "totalPoints": 396,
       "leagueRank": 4,
       "chargeableTransfers": 4,
       "totalTransfers": 27
@@ -59,7 +59,7 @@
       "entryId": 1692757,
       "name": "Jack Greatorex",
       "teamName": "Jack's XI",
-      "totalPoints": 375,
+      "totalPoints": 381,
       "leagueRank": 5,
       "chargeableTransfers": 4,
       "totalTransfers": 6
@@ -68,34 +68,34 @@
       "entryId": 2742631,
       "name": "Lewis Hughes",
       "teamName": "You Just Got Kaned",
-      "totalPoints": 367,
+      "totalPoints": 370,
       "leagueRank": 6,
       "chargeableTransfers": 6,
       "totalTransfers": 23
     },
     {
-      "entryId": 2324564,
-      "name": "Rob Dawson",
-      "teamName": "Squeeze My Iraolas",
-      "totalPoints": 331,
-      "leagueRank": 7,
-      "chargeableTransfers": 5,
-      "totalTransfers": 17
-    },
-    {
       "entryId": 5590560,
       "name": "Ryan Gaunt",
       "teamName": "Ryans XI",
-      "totalPoints": 323,
-      "leagueRank": 8,
+      "totalPoints": 343,
+      "leagueRank": 7,
       "chargeableTransfers": 8,
+      "totalTransfers": 17
+    },
+    {
+      "entryId": 2324564,
+      "name": "Rob Dawson",
+      "teamName": "Squeeze My Iraolas",
+      "totalPoints": 341,
+      "leagueRank": 8,
+      "chargeableTransfers": 5,
       "totalTransfers": 17
     },
     {
       "entryId": 2770502,
       "name": "Kyle Mckay",
       "teamName": "Beef Cherki",
-      "totalPoints": 273,
+      "totalPoints": 280,
       "leagueRank": 9,
       "chargeableTransfers": 13,
       "totalTransfers": 19
@@ -281,47 +281,47 @@
         {
           "entryId": 5807891,
           "name": "Luke Waddington",
-          "points": 78
-        },
-        {
-          "entryId": 4314776,
-          "name": "Tom Pick",
-          "points": 66
-        },
-        {
-          "entryId": 511719,
-          "name": "Mark Austerberry",
-          "points": 65
+          "points": 86
         },
         {
           "entryId": 5590560,
           "name": "Ryan Gaunt",
-          "points": 64
+          "points": 80
         },
         {
-          "entryId": 2742631,
-          "name": "Lewis Hughes",
-          "points": 55
+          "entryId": 4314776,
+          "name": "Tom Pick",
+          "points": 73
         },
         {
-          "entryId": 5801945,
-          "name": "Tom Dodd",
-          "points": 53
+          "entryId": 511719,
+          "name": "Mark Austerberry",
+          "points": 71
         },
         {
           "entryId": 2770502,
           "name": "Kyle Mckay",
-          "points": 52
+          "points": 64
+        },
+        {
+          "entryId": 5801945,
+          "name": "Tom Dodd",
+          "points": 62
+        },
+        {
+          "entryId": 2742631,
+          "name": "Lewis Hughes",
+          "points": 62
         },
         {
           "entryId": 2324564,
           "name": "Rob Dawson",
-          "points": 48
+          "points": 58
         },
         {
           "entryId": 1692757,
           "name": "Jack Greatorex",
-          "points": 39
+          "points": 53
         }
       ],
       "winner": null
@@ -354,13 +354,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 5801945,
+          "name": "Tom Dodd",
           "points": 0
         },
         {
-          "entryId": 5801945,
-          "name": "Tom Dodd",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -379,13 +379,13 @@
           "points": 0
         },
         {
-          "entryId": 2324564,
-          "name": "Rob Dawson",
+          "entryId": 5590560,
+          "name": "Ryan Gaunt",
           "points": 0
         },
         {
-          "entryId": 5590560,
-          "name": "Ryan Gaunt",
+          "entryId": 2324564,
+          "name": "Rob Dawson",
           "points": 0
         },
         {
@@ -420,13 +420,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 5801945,
+          "name": "Tom Dodd",
           "points": 0
         },
         {
-          "entryId": 5801945,
-          "name": "Tom Dodd",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -445,13 +445,13 @@
           "points": 0
         },
         {
-          "entryId": 2324564,
-          "name": "Rob Dawson",
+          "entryId": 5590560,
+          "name": "Ryan Gaunt",
           "points": 0
         },
         {
-          "entryId": 5590560,
-          "name": "Ryan Gaunt",
+          "entryId": 2324564,
+          "name": "Rob Dawson",
           "points": 0
         },
         {
@@ -487,13 +487,13 @@
           "points": 0
         },
         {
-          "entryId": 5807891,
-          "name": "Luke Waddington",
+          "entryId": 5801945,
+          "name": "Tom Dodd",
           "points": 0
         },
         {
-          "entryId": 5801945,
-          "name": "Tom Dodd",
+          "entryId": 5807891,
+          "name": "Luke Waddington",
           "points": 0
         },
         {
@@ -512,13 +512,13 @@
           "points": 0
         },
         {
-          "entryId": 2324564,
-          "name": "Rob Dawson",
+          "entryId": 5590560,
+          "name": "Ryan Gaunt",
           "points": 0
         },
         {
-          "entryId": 5590560,
-          "name": "Ryan Gaunt",
+          "entryId": 2324564,
+          "name": "Rob Dawson",
           "points": 0
         },
         {
@@ -535,7 +535,7 @@
       "entryId": 4314776,
       "name": "Tom Pick",
       "teamName": "Wernham Hogg FC",
-      "totalPoints": 415,
+      "totalPoints": 424,
       "leagueRank": 1,
       "chargeableTransfers": 4,
       "totalTransfers": 30,
@@ -620,114 +620,12 @@
         },
         {
           "gw": 7,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 7,
+          "rawPoints": 7,
           "hitCost": 0,
           "captain": "De Cuyper",
-          "captainPoints": 0,
-          "captainTotal": 0,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        }
-      ]
-    },
-    {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
-      "teamName": "Dream Team",
-      "totalPoints": 407,
-      "leagueRank": 2,
-      "chargeableTransfers": 6,
-      "totalTransfers": 16,
-      "gameweeks": [
-        {
-          "gw": 1,
-          "points": 50,
-          "rawPoints": 50,
-          "hitCost": 0,
-          "captain": "B.Fernandes",
-          "captainPoints": 2,
-          "captainTotal": 4,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 4,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 2,
-          "points": 104,
-          "rawPoints": 104,
-          "hitCost": 0,
-          "captain": "B.Fernandes",
-          "captainPoints": 23,
-          "captainTotal": 46,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 3,
-          "points": 45,
-          "rawPoints": 45,
-          "hitCost": 0,
-          "captain": "Semenyo",
-          "captainPoints": 6,
-          "captainTotal": 12,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 4,
-          "points": 76,
-          "rawPoints": 76,
-          "hitCost": 0,
-          "captain": "Palmer",
-          "captainPoints": 5,
-          "captainTotal": 10,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 5,
-          "points": 46,
-          "rawPoints": 46,
-          "hitCost": 0,
-          "captain": "Gibbs-White",
-          "captainPoints": 2,
-          "captainTotal": 4,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 4,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 6,
-          "points": 82,
-          "rawPoints": 82,
-          "hitCost": 0,
-          "captain": "João Pedro",
-          "captainPoints": 12,
-          "captainTotal": 24,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 7,
-          "points": -4,
-          "rawPoints": 0,
-          "hitCost": 4,
-          "captain": "João Pedro",
-          "captainPoints": 2,
-          "captainTotal": 4,
+          "captainPoints": 1,
+          "captainTotal": 2,
           "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
@@ -739,8 +637,8 @@
       "entryId": 5801945,
       "name": "Tom Dodd",
       "teamName": "Rubber Digne Rapids",
-      "totalPoints": 406,
-      "leagueRank": 3,
+      "totalPoints": 417,
+      "leagueRank": 2,
       "chargeableTransfers": 1,
       "totalTransfers": 18,
       "gameweeks": [
@@ -824,10 +722,112 @@
         },
         {
           "gw": 7,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 9,
+          "rawPoints": 9,
           "hitCost": 0,
           "captain": "Palmer",
+          "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        }
+      ]
+    },
+    {
+      "entryId": 5807891,
+      "name": "Luke Waddington",
+      "teamName": "Dream Team",
+      "totalPoints": 411,
+      "leagueRank": 3,
+      "chargeableTransfers": 6,
+      "totalTransfers": 16,
+      "gameweeks": [
+        {
+          "gw": 1,
+          "points": 50,
+          "rawPoints": 50,
+          "hitCost": 0,
+          "captain": "B.Fernandes",
+          "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 4,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 2,
+          "points": 104,
+          "rawPoints": 104,
+          "hitCost": 0,
+          "captain": "B.Fernandes",
+          "captainPoints": 23,
+          "captainTotal": 46,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 3,
+          "points": 45,
+          "rawPoints": 45,
+          "hitCost": 0,
+          "captain": "Semenyo",
+          "captainPoints": 6,
+          "captainTotal": 12,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 4,
+          "points": 76,
+          "rawPoints": 76,
+          "hitCost": 0,
+          "captain": "Palmer",
+          "captainPoints": 5,
+          "captainTotal": 10,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 5,
+          "points": 46,
+          "rawPoints": 46,
+          "hitCost": 0,
+          "captain": "Gibbs-White",
+          "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 4,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 6,
+          "points": 82,
+          "rawPoints": 82,
+          "hitCost": 0,
+          "captain": "João Pedro",
+          "captainPoints": 12,
+          "captainTotal": 24,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 7,
+          "points": 4,
+          "rawPoints": 8,
+          "hitCost": 4,
+          "captain": "João Pedro",
           "captainPoints": 2,
           "captainTotal": 4,
           "captainMultiplier": 2,
@@ -841,7 +841,7 @@
       "entryId": 511719,
       "name": "Mark Austerberry",
       "teamName": "Real Strugglers",
-      "totalPoints": 389,
+      "totalPoints": 396,
       "leagueRank": 4,
       "chargeableTransfers": 4,
       "totalTransfers": 27,
@@ -926,12 +926,12 @@
         },
         {
           "gw": 7,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 6,
+          "rawPoints": 6,
           "hitCost": 0,
           "captain": "Semenyo",
-          "captainPoints": 0,
-          "captainTotal": 0,
+          "captainPoints": 1,
+          "captainTotal": 2,
           "captainMultiplier": 2,
           "tripleCaptain": false,
           "captainFine": 0,
@@ -943,7 +943,7 @@
       "entryId": 1692757,
       "name": "Jack Greatorex",
       "teamName": "Jack's XI",
-      "totalPoints": 375,
+      "totalPoints": 381,
       "leagueRank": 5,
       "chargeableTransfers": 4,
       "totalTransfers": 6,
@@ -1028,8 +1028,8 @@
         },
         {
           "gw": 7,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 14,
+          "rawPoints": 14,
           "hitCost": 0,
           "captain": "João Pedro",
           "captainPoints": 2,
@@ -1045,7 +1045,7 @@
       "entryId": 2742631,
       "name": "Lewis Hughes",
       "teamName": "You Just Got Kaned",
-      "totalPoints": 367,
+      "totalPoints": 370,
       "leagueRank": 6,
       "chargeableTransfers": 6,
       "totalTransfers": 23,
@@ -1130,110 +1130,8 @@
         },
         {
           "gw": 7,
-          "points": 0,
-          "rawPoints": 0,
-          "hitCost": 0,
-          "captain": "Cherki",
-          "captainPoints": 0,
-          "captainTotal": 0,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        }
-      ]
-    },
-    {
-      "entryId": 2324564,
-      "name": "Rob Dawson",
-      "teamName": "Squeeze My Iraolas",
-      "totalPoints": 331,
-      "leagueRank": 7,
-      "chargeableTransfers": 5,
-      "totalTransfers": 17,
-      "gameweeks": [
-        {
-          "gw": 1,
-          "points": 52,
-          "rawPoints": 52,
-          "hitCost": 0,
-          "captain": "Havertz",
-          "captainPoints": 6,
-          "captainTotal": 12,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 2,
-          "points": 71,
-          "rawPoints": 71,
-          "hitCost": 0,
-          "captain": "Cunha",
-          "captainPoints": 9,
-          "captainTotal": 18,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 3,
-          "points": 36,
-          "rawPoints": 40,
-          "hitCost": 4,
-          "captain": "Cherki",
-          "captainPoints": 3,
-          "captainTotal": 6,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 0,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 4,
-          "points": 71,
-          "rawPoints": 71,
-          "hitCost": 0,
-          "captain": "Isak",
-          "captainPoints": 2,
-          "captainTotal": 4,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 4,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 5,
-          "points": 51,
-          "rawPoints": 51,
-          "hitCost": 0,
-          "captain": "Delap",
-          "captainPoints": 1,
-          "captainTotal": 2,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 4,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 6,
-          "points": 48,
-          "rawPoints": 48,
-          "hitCost": 0,
-          "captain": "Gabriel",
-          "captainPoints": 2,
-          "captainTotal": 4,
-          "captainMultiplier": 2,
-          "tripleCaptain": false,
-          "captainFine": 4,
-          "ownsHaaland": false
-        },
-        {
-          "gw": 7,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 7,
+          "rawPoints": 7,
           "hitCost": 0,
           "captain": "Cherki",
           "captainPoints": 0,
@@ -1249,8 +1147,8 @@
       "entryId": 5590560,
       "name": "Ryan Gaunt",
       "teamName": "Ryans XI",
-      "totalPoints": 323,
-      "leagueRank": 8,
+      "totalPoints": 343,
+      "leagueRank": 7,
       "chargeableTransfers": 8,
       "totalTransfers": 17,
       "gameweeks": [
@@ -1334,10 +1232,112 @@
         },
         {
           "gw": 7,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 16,
+          "rawPoints": 16,
           "hitCost": 0,
           "captain": "Doku",
+          "captainPoints": 6,
+          "captainTotal": 12,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        }
+      ]
+    },
+    {
+      "entryId": 2324564,
+      "name": "Rob Dawson",
+      "teamName": "Squeeze My Iraolas",
+      "totalPoints": 341,
+      "leagueRank": 8,
+      "chargeableTransfers": 5,
+      "totalTransfers": 17,
+      "gameweeks": [
+        {
+          "gw": 1,
+          "points": 52,
+          "rawPoints": 52,
+          "hitCost": 0,
+          "captain": "Havertz",
+          "captainPoints": 6,
+          "captainTotal": 12,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 2,
+          "points": 71,
+          "rawPoints": 71,
+          "hitCost": 0,
+          "captain": "Cunha",
+          "captainPoints": 9,
+          "captainTotal": 18,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 3,
+          "points": 36,
+          "rawPoints": 40,
+          "hitCost": 4,
+          "captain": "Cherki",
+          "captainPoints": 3,
+          "captainTotal": 6,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 0,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 4,
+          "points": 71,
+          "rawPoints": 71,
+          "hitCost": 0,
+          "captain": "Isak",
+          "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 4,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 5,
+          "points": 51,
+          "rawPoints": 51,
+          "hitCost": 0,
+          "captain": "Delap",
+          "captainPoints": 1,
+          "captainTotal": 2,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 4,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 6,
+          "points": 48,
+          "rawPoints": 48,
+          "hitCost": 0,
+          "captain": "Gabriel",
+          "captainPoints": 2,
+          "captainTotal": 4,
+          "captainMultiplier": 2,
+          "tripleCaptain": false,
+          "captainFine": 4,
+          "ownsHaaland": false
+        },
+        {
+          "gw": 7,
+          "points": 10,
+          "rawPoints": 10,
+          "hitCost": 0,
+          "captain": "Cherki",
           "captainPoints": 0,
           "captainTotal": 0,
           "captainMultiplier": 2,
@@ -1351,7 +1351,7 @@
       "entryId": 2770502,
       "name": "Kyle Mckay",
       "teamName": "Beef Cherki",
-      "totalPoints": 273,
+      "totalPoints": 280,
       "leagueRank": 9,
       "chargeableTransfers": 13,
       "totalTransfers": 19,
@@ -1436,8 +1436,8 @@
         },
         {
           "gw": 7,
-          "points": 0,
-          "rawPoints": 0,
+          "points": 12,
+          "rawPoints": 12,
           "hitCost": 0,
           "captain": "João Pedro",
           "captainPoints": 2,
@@ -1461,15 +1461,6 @@
       "description": "August/September pot paid out"
     },
     {
-      "entryId": 5807891,
-      "manager": "Luke Waddington",
-      "gw": 1,
-      "date": "2026-08-21T17:30:00Z",
-      "type": "CAPTAIN_FINE",
-      "amount": 4,
-      "description": "Captained B.Fernandes for 4 pts"
-    },
-    {
       "entryId": 5801945,
       "manager": "Tom Dodd",
       "gw": 1,
@@ -1477,6 +1468,15 @@
       "type": "CAPTAIN_FINE",
       "amount": 4,
       "description": "Captained Mateta for 4 pts"
+    },
+    {
+      "entryId": 5807891,
+      "manager": "Luke Waddington",
+      "gw": 1,
+      "date": "2026-08-21T17:30:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained B.Fernandes for 4 pts"
     },
     {
       "entryId": 511719,
@@ -1830,8 +1830,8 @@
       "description": "Captained B.Fernandes for 4 pts"
     },
     {
-      "entryId": 2324564,
-      "manager": "Rob Dawson",
+      "entryId": 5590560,
+      "manager": "Ryan Gaunt",
       "gw": 4,
       "date": "2026-09-12T12:30:00Z",
       "type": "CAPTAIN_FINE",
@@ -1839,8 +1839,8 @@
       "description": "Captained Isak for 4 pts"
     },
     {
-      "entryId": 5590560,
-      "manager": "Ryan Gaunt",
+      "entryId": 2324564,
+      "manager": "Rob Dawson",
       "gw": 4,
       "date": "2026-09-12T12:30:00Z",
       "type": "CAPTAIN_FINE",
@@ -1929,15 +1929,6 @@
       "description": "Captained Calvert-Lewin for 4 pts"
     },
     {
-      "entryId": 5807891,
-      "manager": "Luke Waddington",
-      "gw": 5,
-      "date": "2026-09-18T17:30:00Z",
-      "type": "CAPTAIN_FINE",
-      "amount": 4,
-      "description": "Captained Gibbs-White for 4 pts"
-    },
-    {
       "entryId": 5801945,
       "manager": "Tom Dodd",
       "gw": 5,
@@ -1945,6 +1936,15 @@
       "type": "CAPTAIN_FINE",
       "amount": 4,
       "description": "Captained Palmer for 4 pts"
+    },
+    {
+      "entryId": 5807891,
+      "manager": "Luke Waddington",
+      "gw": 5,
+      "date": "2026-09-18T17:30:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Gibbs-White for 4 pts"
     },
     {
       "entryId": 511719,
@@ -1974,15 +1974,6 @@
       "description": "Captained B.Fernandes for 4 pts"
     },
     {
-      "entryId": 2324564,
-      "manager": "Rob Dawson",
-      "gw": 5,
-      "date": "2026-09-18T17:30:00Z",
-      "type": "CAPTAIN_FINE",
-      "amount": 4,
-      "description": "Captained Delap for 2 pts"
-    },
-    {
       "entryId": 5590560,
       "manager": "Ryan Gaunt",
       "gw": 5,
@@ -1990,6 +1981,15 @@
       "type": "CAPTAIN_FINE",
       "amount": 4,
       "description": "Captained Gibbs-White for 4 pts"
+    },
+    {
+      "entryId": 2324564,
+      "manager": "Rob Dawson",
+      "gw": 5,
+      "date": "2026-09-18T17:30:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Delap for 2 pts"
     },
     {
       "entryId": 2770502,
@@ -2091,15 +2091,6 @@
       "description": "Captained B.Fernandes for 2 pts"
     },
     {
-      "entryId": 2324564,
-      "manager": "Rob Dawson",
-      "gw": 6,
-      "date": "2026-10-10T10:00:00Z",
-      "type": "CAPTAIN_FINE",
-      "amount": 4,
-      "description": "Captained Gabriel for 4 pts"
-    },
-    {
       "entryId": 5590560,
       "manager": "Ryan Gaunt",
       "gw": 6,
@@ -2107,6 +2098,15 @@
       "type": "CAPTAIN_FINE",
       "amount": 4,
       "description": "Captained Wissa for 4 pts"
+    },
+    {
+      "entryId": 2324564,
+      "manager": "Rob Dawson",
+      "gw": 6,
+      "date": "2026-10-10T10:00:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Gabriel for 4 pts"
     },
     {
       "entryId": 4314776,

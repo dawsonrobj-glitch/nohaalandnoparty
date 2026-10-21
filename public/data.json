@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T15:31:59.775Z",
+  "generatedAt": "2026-10-21T15:48:17.322Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 7,
   "rules": {
@@ -102,13 +102,31 @@
     }
   ],
   "transferPot": {
-    "balance": 38,
-    "paidIn": 155,
+    "balance": 66,
+    "paidIn": 183,
     "paidOut": 117,
     "nextPeriod": "October/November"
   },
   "mainPot": 160,
   "contributions": [
+    {
+      "entryId": 5801945,
+      "name": "Tom Dodd",
+      "transfers": 1,
+      "transferFees": 1,
+      "captainFines": 24,
+      "haalandFines": 0,
+      "total": 25
+    },
+    {
+      "entryId": 2770502,
+      "name": "Kyle Mckay",
+      "transfers": 13,
+      "transferFees": 13,
+      "captainFines": 12,
+      "haalandFines": 0,
+      "total": 25
+    },
     {
       "entryId": 5590560,
       "name": "Ryan Gaunt",
@@ -119,26 +137,35 @@
       "total": 24
     },
     {
-      "entryId": 5801945,
-      "name": "Tom Dodd",
-      "transfers": 1,
-      "transferFees": 1,
-      "captainFines": 20,
-      "haalandFines": 0,
-      "total": 21
-    },
-    {
-      "entryId": 2770502,
-      "name": "Kyle Mckay",
-      "transfers": 13,
-      "transferFees": 13,
-      "captainFines": 8,
-      "haalandFines": 0,
-      "total": 21
-    },
-    {
       "entryId": 2742631,
       "name": "Lewis Hughes",
+      "transfers": 6,
+      "transferFees": 6,
+      "captainFines": 16,
+      "haalandFines": 0,
+      "total": 22
+    },
+    {
+      "entryId": 2324564,
+      "name": "Rob Dawson",
+      "transfers": 5,
+      "transferFees": 5,
+      "captainFines": 16,
+      "haalandFines": 0,
+      "total": 21
+    },
+    {
+      "entryId": 511719,
+      "name": "Mark Austerberry",
+      "transfers": 4,
+      "transferFees": 4,
+      "captainFines": 16,
+      "haalandFines": 0,
+      "total": 20
+    },
+    {
+      "entryId": 5807891,
+      "name": "Luke Waddington",
       "transfers": 6,
       "transferFees": 6,
       "captainFines": 12,
@@ -146,17 +173,8 @@
       "total": 18
     },
     {
-      "entryId": 2324564,
-      "name": "Rob Dawson",
-      "transfers": 5,
-      "transferFees": 5,
-      "captainFines": 12,
-      "haalandFines": 0,
-      "total": 17
-    },
-    {
-      "entryId": 511719,
-      "name": "Mark Austerberry",
+      "entryId": 1692757,
+      "name": "Jack Greatorex",
       "transfers": 4,
       "transferFees": 4,
       "captainFines": 12,
@@ -164,26 +182,8 @@
       "total": 16
     },
     {
-      "entryId": 5807891,
-      "name": "Luke Waddington",
-      "transfers": 6,
-      "transferFees": 6,
-      "captainFines": 8,
-      "haalandFines": 0,
-      "total": 14
-    },
-    {
       "entryId": 4314776,
       "name": "Tom Pick",
-      "transfers": 4,
-      "transferFees": 4,
-      "captainFines": 8,
-      "haalandFines": 0,
-      "total": 12
-    },
-    {
-      "entryId": 1692757,
-      "name": "Jack Greatorex",
       "transfers": 4,
       "transferFees": 4,
       "captainFines": 8,
@@ -730,7 +730,7 @@
           "captainTotal": 4,
           "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -832,7 +832,7 @@
           "captainTotal": 4,
           "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -934,7 +934,7 @@
           "captainTotal": 2,
           "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -1036,7 +1036,7 @@
           "captainTotal": 4,
           "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -1138,7 +1138,7 @@
           "captainTotal": 4,
           "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -1342,7 +1342,7 @@
           "captainTotal": 4,
           "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -1444,7 +1444,7 @@
           "captainTotal": 4,
           "captainMultiplier": 2,
           "tripleCaptain": false,
-          "captainFine": 0,
+          "captainFine": 4,
           "ownsHaaland": false
         }
       ]
@@ -2152,6 +2152,69 @@
       "type": "TRANSFER",
       "amount": 1,
       "description": "Barnes → Cherki"
+    },
+    {
+      "entryId": 5807891,
+      "manager": "Luke Waddington",
+      "gw": 7,
+      "date": "2026-10-17T10:00:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained João Pedro for 4 pts"
+    },
+    {
+      "entryId": 5801945,
+      "manager": "Tom Dodd",
+      "gw": 7,
+      "date": "2026-10-17T10:00:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Palmer for 4 pts"
+    },
+    {
+      "entryId": 511719,
+      "manager": "Mark Austerberry",
+      "gw": 7,
+      "date": "2026-10-17T10:00:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Semenyo for 2 pts"
+    },
+    {
+      "entryId": 1692757,
+      "manager": "Jack Greatorex",
+      "gw": 7,
+      "date": "2026-10-17T10:00:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained João Pedro for 4 pts"
+    },
+    {
+      "entryId": 2742631,
+      "manager": "Lewis Hughes",
+      "gw": 7,
+      "date": "2026-10-17T10:00:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Palmer for 4 pts"
+    },
+    {
+      "entryId": 2324564,
+      "manager": "Rob Dawson",
+      "gw": 7,
+      "date": "2026-10-17T10:00:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained Gonzalo for 4 pts"
+    },
+    {
+      "entryId": 2770502,
+      "manager": "Kyle Mckay",
+      "gw": 7,
+      "date": "2026-10-17T10:00:00Z",
+      "type": "CAPTAIN_FINE",
+      "amount": 4,
+      "description": "Captained João Pedro for 4 pts"
     }
   ]
 }

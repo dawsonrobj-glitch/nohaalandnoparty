@@ -148,7 +148,7 @@ function render(d){
     <p class="hero-figure num">${fmt(d.transferPot.balance)}</p>
     <div class="hero-foot">
       <span>Next payout <b>${d.transferPot.nextPeriod ?? 'Season over'}</b></span>
-      <span>Overall League winner takes <b class="num">${fmt(d.mainPot)}</b></span>
+      <span>Winner takes <b class="num">${fmt(d.mainPot)}</b></span>
     </div>
   </div>`);
 
@@ -162,7 +162,7 @@ function render(d){
     </div>`).join('')));
 
   /* current period */
-  const live = d.periods.find(p => !p.complete && p.table.some(r => r.points > 0));
+  const live = d.periods.find(p => !p.complete && ((p.pot || 0) > 0 || p.table.some(r => r.points > 0)));
   if (live){
     out.push(card(live.label, `GW${live.gameweeks[0]}–${live.gameweeks.at(-1)}`,
       live.table.map((r,i) => `<div class="row">
@@ -177,36 +177,33 @@ function render(d){
   if (done.length){
     out.push(card('Pots won', null,
       done.map(p => `<div class="row">
-        <div class="who"><b>${p.winner.name}</b><small>${p.label}</small></div>
-        <div class="val num">${pts(p.winner.points)}</div>
+        <div class="who"><b>${p.winner.name}</b><small>${p.label} · ${pts(p.winner.points)} pts</small></div>
+        <div class="val num">${fmt(p.pot || 0)}</div>
       </div>`).join('')));
   }
 
-  /* transfers */
-  const spend = [...d.contributions].sort((a,b) => b.transfers - a.transfers);
-  const max = Math.max(...spend.map(m => m.transfers), 1);
-  out.push(card('Transfers', '£1 each',
-    spend.some(m => m.transfers)
-      ? spend.map(m => `<div class="row">
-          <div class="who">
-            <b>${m.name}</b>
-            <div class="bar"><i style="width:${Math.max((m.transfers/max)*100, m.transfers?4:0)}%"></i></div>
-          </div>
-          <div class="val money num">${fmt(m.transferFees)}<small>${m.transfers} made</small></div>
-        </div>`).join('')
-      : '<p class="empty">Nothing yet. Transfers appear within two hours — wildcard and free hit moves don\'t count.</p>'));
-
-  /* fines */
-  const fined = d.contributions.filter(m => m.captainFines || m.haalandFines)
-    .sort((a,b) => (b.captainFines+b.haalandFines) - (a.captainFines+a.haalandFines));
-  out.push(card('Fines', 'Captain £4 · Triple £10 · Haaland £10',
-    fined.length
-      ? fined.map(m => `<div class="row">
-          <div class="who"><b>${m.name}${m.haalandFines ? '<span class="pill pill-ban">Haaland</span>' : ''}</b>
-            <small>${[m.captainFines ? `Captain ${fmt(m.captainFines)}` : null, m.haalandFines ? `Haaland ${fmt(m.haalandFines)}` : null].filter(Boolean).join(' · ')}</small></div>
-          <div class="val money num">${fmt(m.captainFines + m.haalandFines)}</div>
-        </div>`).join('')
-      : '<p class="empty">No fines yet. Every captain has cleared four points and nobody has touched Haaland.</p>'));
+  /* what everyone owes — this period only, so settled money isn't asked for twice */
+  const owedPeriod = live && live.owed ? live : null;
+  const owed = [...(owedPeriod ? owedPeriod.owed : d.contributions)].sort((a, b) => b.total - a.total);
+  const maxOwed = Math.max(...owed.map(m => m.total), 1);
+  out.push(card('What everyone owes', owedPeriod ? owedPeriod.label : 'Season total',
+    owed.some(m => m.total)
+      ? owed.map(m => {
+          const bits = [
+            m.transfers ? `${m.transfers} transfer${m.transfers === 1 ? '' : 's'} ${fmt(m.transferFees)}` : null,
+            m.captainFines ? `captain ${fmt(m.captainFines)}` : null,
+            m.haalandFines ? `Haaland ${fmt(m.haalandFines)}` : null,
+          ].filter(Boolean).join(' · ') || 'nothing yet';
+          return `<div class="row">
+            <div class="who">
+              <b>${m.name}${m.haalandFines ? '<span class="pill pill-ban">Haaland</span>' : ''}</b>
+              <small>${bits}</small>
+              <div class="bar"><i style="width:${Math.max((m.total / maxOwed) * 100, m.total ? 4 : 0)}%"></i></div>
+            </div>
+            <div class="val money num">${fmt(m.total)}</div>
+          </div>`;
+        }).join('')
+      : '<p class="empty">Nothing owed in this period yet. Transfers appear once the gameweek deadline passes — wildcard and Free Hit moves don\'t count.</p>'));
 
   /* ledger */
   const L = [...d.ledger].reverse();

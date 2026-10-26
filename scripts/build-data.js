@@ -263,6 +263,8 @@ async function main() {
   // ---- period standings
   const periods = config.periods.map((p) => {
     const gws = events.filter((e) => p.months.includes(e.month)).map((e) => e.id);
+    const gwSet = new Set(gws);
+
     const table = detail
       .map((m) => ({
         entryId: m.entryId,
@@ -270,8 +272,32 @@ async function main() {
         points: m.gameweeks.filter((g) => gws.includes(g.gw)).reduce((s, g) => s + g.points, 0),
       }))
       .sort((a, b) => b.points - a.points);
+
+    // Money owed within THIS period only. Without the gameweek filter, every
+    // payout would ask people for everything they have owed all season,
+    // including whatever they already settled last time.
+    const rows = ledger.filter((l) => l.amount > 0 && gwSet.has(l.gw));
+    const owed = detail
+      .map((m) => {
+        const mine = rows.filter((l) => l.entryId === m.entryId);
+        const sum = (...types) =>
+          mine.filter((r) => types.includes(r.type)).reduce((s, r) => s + r.amount, 0);
+        return {
+          entryId: m.entryId,
+          name: m.name,
+          transfers: mine.filter((r) => r.type === 'TRANSFER').length,
+          transferFees: sum('TRANSFER'),
+          captainFines: sum('CAPTAIN_FINE', 'TRIPLE_CAPTAIN_FINE'),
+          haalandFines: sum('HAALAND_VIOLATION'),
+          total: mine.reduce((s, r) => s + r.amount, 0),
+        };
+      })
+      .sort((a, b) => b.total - a.total);
+
+    const pot = rows.reduce((s, r) => s + r.amount, 0);
     const complete = gws.length > 0 && gws.every((id) => events.find((e) => e.id === id).finished);
-    return { ...p, gameweeks: gws, complete, table, winner: complete ? table[0] : null };
+
+    return { ...p, gameweeks: gws, complete, table, owed, pot, winner: complete ? table[0] : null };
   });
 
   // ---- money
@@ -323,14 +349,23 @@ async function main() {
   // leave the file untouched if the league is genuinely unchanged — that keeps
   // git quiet and stops Netlify rebuilding for no reason.
   const { generatedAt, ...content } = output;
+  console.log(
+    `\nComputed: GW${output.currentGameweek} · ${output.standings.length} managers · ` +
+    `${output.ledger.length} ledger entries · pot £${output.transferPot.balance}`,
+  );
+
   try {
     const { generatedAt: _prev, ...prevContent } = JSON.parse(await fs.readFile(OUT_FILE, 'utf8'));
+    console.log(
+      `On file:  GW${prevContent.currentGameweek} · ${prevContent.standings?.length ?? '?'} managers · ` +
+      `${prevContent.ledger?.length ?? '?'} ledger entries · pot £${prevContent.transferPot?.balance ?? '?'}`,
+    );
     if (JSON.stringify(prevContent) === JSON.stringify(content)) {
-      console.log('Nothing has changed. Leaving data.json alone.');
+      console.log('Identical. Leaving data.json alone.');
       return;
     }
-  } catch {
-    /* no existing file, so write one */
+  } catch (err) {
+    console.log(`On file:  could not read existing data.json (${err.message}) — writing a fresh one.`);
   }
 
   await fs.mkdir(path.dirname(OUT_FILE), { recursive: true });

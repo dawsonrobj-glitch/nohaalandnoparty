@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T18:11:22.191Z",
+  "generatedAt": "2026-11-23T12:59:59.246Z",
   "leagueName": "No Haaland No Party",
   "currentGameweek": 11,
   "rules": {
@@ -365,17 +365,17 @@
         {
           "entryId": 2324564,
           "name": "Rob Dawson",
-          "points": 327
-        },
-        {
-          "entryId": 4314776,
-          "name": "Tom Pick",
-          "points": 322
+          "points": 348
         },
         {
           "entryId": 5807891,
           "name": "Luke Waddington",
-          "points": 320
+          "points": 333
+        },
+        {
+          "entryId": 4314776,
+          "name": "Tom Pick",
+          "points": 331
         },
         {
           "entryId": 2742631,
@@ -385,27 +385,27 @@
         {
           "entryId": 5590560,
           "name": "Ryan Gaunt",
-          "points": 286
-        },
-        {
-          "entryId": 2770502,
-          "name": "Kyle Mckay",
-          "points": 279
+          "points": 296
         },
         {
           "entryId": 5801945,
           "name": "Tom Dodd",
-          "points": 277
-        },
-        {
-          "entryId": 511719,
-          "name": "Mark Austerberry",
-          "points": 270
+          "points": 295
         },
         {
           "entryId": 1692757,
           "name": "Jack Greatorex",
-          "points": 266
+          "points": 288
+        },
+        {
+          "entryId": 511719,
+          "name": "Mark Austerberry",
+          "points": 282
+        },
+        {
+          "entryId": 2770502,
+          "name": "Kyle Mckay",
+          "points": 281
         }
       ],
       "owed": [
@@ -1092,8 +1092,8 @@
         },
         {
           "gw": 11,
-          "points": 23,
-          "rawPoints": 23,
+          "points": 32,
+          "rawPoints": 32,
           "hitCost": 0,
           "captain": "N.Jackson",
           "captainPoints": 2,
@@ -1246,8 +1246,8 @@
         },
         {
           "gw": 11,
-          "points": 22,
-          "rawPoints": 22,
+          "points": 35,
+          "rawPoints": 35,
           "hitCost": 0,
           "captain": "N.Jackson",
           "captainPoints": 2,
@@ -1400,8 +1400,8 @@
         },
         {
           "gw": 11,
-          "points": 18,
-          "rawPoints": 18,
+          "points": 36,
+          "rawPoints": 36,
           "hitCost": 0,
           "captain": "Isak",
           "captainPoints": 5,
@@ -1554,8 +1554,8 @@
         },
         {
           "gw": 11,
-          "points": 15,
-          "rawPoints": 15,
+          "points": 36,
+          "rawPoints": 36,
           "hitCost": 0,
           "captain": "De Cuyper",
           "captainPoints": 1,
@@ -1708,8 +1708,8 @@
         },
         {
           "gw": 11,
-          "points": 17,
-          "rawPoints": 17,
+          "points": 39,
+          "rawPoints": 39,
           "hitCost": 0,
           "captain": "Isak",
           "captainPoints": 5,
@@ -2016,8 +2016,8 @@
         },
         {
           "gw": 11,
-          "points": 10,
-          "rawPoints": 10,
+          "points": 22,
+          "rawPoints": 22,
           "hitCost": 0,
           "captain": "Doku",
           "captainPoints": 2,
@@ -2170,8 +2170,8 @@
         },
         {
           "gw": 11,
-          "points": 13,
-          "rawPoints": 13,
+          "points": 23,
+          "rawPoints": 23,
           "hitCost": 0,
           "captain": "De Cuyper",
           "captainPoints": 1,
@@ -2324,8 +2324,8 @@
         },
         {
           "gw": 11,
-          "points": 23,
-          "rawPoints": 23,
+          "points": 25,
+          "rawPoints": 25,
           "hitCost": 0,
           "captain": "Rogers",
           "captainPoints": 5,
